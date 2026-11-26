@@ -1,0 +1,92 @@
+[
+  {
+    "id": "oct-analysis-count",
+    "claim": "本报告整理2026年10月19条可核实的代表性上海事项",
+    "kind": "derived-summary",
+    "source_url": "data/events/ 19 records",
+    "locator": "研究者整理",
+    "status": "derived",
+    "notes": "选题人工汇总，不代表全部报道"
+  },
+  {
+    "id": "urban-issue-publication",
+    "claim": "城市更新行动计划印发于7月23日、公开于10月21日",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html",
+    "locator": "公文页眉",
+    "status": "verified",
+    "notes": "官方原文，可依链接复核"
+  },
+  {
+    "id": "urban-old-housing",
+    "claim": "行动计划提到70万平方米旧住房成套改造、约2400万平方米老旧小区改造",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html",
+    "locator": "正文一、提升人居环境品质",
+    "status": "verified",
+    "notes": "官方原文，可依链接复核"
+  },
+  {
+    "id": "baoshan-subsidy",
+    "claim": "宝山购车补贴最高1万元、总资金2900万元",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/nw17239/20261010/04f1cdb21dbd437f953118eec2b263bb.html",
+    "locator": "开头导语",
+    "status": "verified",
+    "notes": "官方原文，可依链接复核"
+  },
+  {
+    "id": "baoshan-subsidy-timing",
+    "claim": "宝山汽车补贴10月12日开放，符合条件开票区间跨至2027年1月3日",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/nw17239/20261010/04f1cdb21dbd437f953118eec2b263bb.html",
+    "locator": "开头导语及申请要求第3条",
+    "status": "verified",
+    "notes": "官方原文，可依链接复核"
+  },
+  {
+    "id": "social-eligibility",
+    "claim": "扩大社保补贴面向重点行业中小微企业吸纳的四类重点群体",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/nw17239/20261029/f8ce0cc87a0a4ac1a23df47d283792b6.html",
+    "locator": "补贴对象",
+    "status": "verified",
+    "notes": "官方原文，可依链接复核"
+  },
+  {
+    "id": "social-percent",
+    "claim": "社保补贴按三项个人实缴额25%计算，申请截止12月31日",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/nw17239/20261029/f8ce0cc87a0a4ac1a23df47d283792b6.html",
+    "locator": "补贴标准、申请期限",
+    "status": "verified",
+    "notes": "官方原文，可依链接复核"
+  },
+  {
+    "id": "ai-future-target",
+    "claim": "智能制造方案到2028年目标500家先进级智能工厂、超过2000个AI场景、超过300个智能体、8000台人形机器人",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/gwk/search/content/b04b3f2de4c44304ae05dcf3d7e1f6f8",
+    "locator": "总体目标",
+    "status": "verified",
+    "notes": "官方原文，可依链接复核"
+  },
+  {
+    "id": "education-teacher-cert",
+    "claim": "教师资格面试公告明确12月5至6日考试",
+    "kind": "official-fact",
+    "source_url": "https://www.shmeea.edu.cn/page/05500/20261026/20640.html",
+    "locator": "考试时间安排",
+    "status": "verified",
+    "notes": "官方原文，可依链接复核"
+  },
+  {
+    "id": "holiday-consumption",
+    "claim": "国庆消费762.4亿元仅是特定监测时间段观测",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/nw31406/20261008/42d702238eae47269468849d17a93448.html",
+    "locator": "商务委节日消费监测段",
+    "status": "verified",
+    "notes": "官方原文，可依链接复核"
+  }
+]
