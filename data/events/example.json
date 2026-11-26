@@ -1,0 +1,19 @@
+{
+  "id": "example-hongkou-teacher-2027",
+  "title": "虹口区公办学校教师招聘（待审核样本）",
+  "topic": "jobs",
+  "districts": [
+    "hongkou"
+  ],
+  "published_at": "2026-11-26",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "仅作为数据结构示例；请审核招聘人数、岗位、资格与截止日期后再发布。",
+  "impact": "关注教师岗位的应聘者",
+  "action": "核查具体岗位及最新报名通知。",
+  "source_url": "https://sh.bendibao.com/job/",
+  "official_url": "https://www.shhk.gov.cn/xwzx/002014/20261126/709d5b47-cc8e-47f4-a9d0-03f1fe12e047.html",
+  "evidence": [],
+  "status": "draft"
+}

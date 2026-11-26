@@ -1,0 +1,59 @@
+[
+  {
+    "id": "shgov",
+    "name": "上海市人民政府",
+    "type": "official",
+    "url": "https://www.shanghai.gov.cn/",
+    "topics": [
+      "housing",
+      "benefits",
+      "economy",
+      "mobility"
+    ]
+  },
+  {
+    "id": "service",
+    "name": "上海一网通办",
+    "type": "official",
+    "url": "https://zwdt.sh.gov.cn/",
+    "topics": [
+      "housing",
+      "benefits",
+      "mobility"
+    ]
+  },
+  {
+    "id": "hr",
+    "name": "上海市人社局",
+    "type": "official",
+    "url": "https://rsj.sh.gov.cn/",
+    "topics": [
+      "jobs",
+      "benefits"
+    ]
+  },
+  {
+    "id": "exam",
+    "name": "上海市教育考试院",
+    "type": "official",
+    "url": "https://www.shmeea.edu.cn/",
+    "topics": [
+      "education"
+    ]
+  },
+  {
+    "id": "bendibao",
+    "name": "上海本地宝",
+    "type": "discovery",
+    "url": "https://sh.bendibao.com/",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  }
+]
