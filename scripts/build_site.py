@@ -270,9 +270,10 @@ def build_monthly(events: list[dict]) -> None:
             for t in TOPICS if counts.get(t["id"]))
         content = hero("MONTH / " + m, m + " · 上海城市情报", "以下事件以原始官方发布时间归档；不是上海本地宝全站该月报道数量。")
         content += '<section class="shell section"><div class="badge-row">' + tags + '</div>'
-        if m == "2026-10":
-            content += ('<p><a class="text-link" href="' + local("reports/october-2026-shanghai-intelligence/")
-                        + '">阅读2026年10月可视化情报分析 →</a></p>')
+        for report in REPORTS:
+            if report.get("research_month") == m:
+                content += ('<p><a class="text-link" href="' + local("reports/" + report["slug"] + "/")
+                            + '">' + esc("阅读月度研究：" + report["title"]) + ' →</a></p>')
         content += '<div class="event-list">' + event_cards(items) + '</div></section>'
         write(f"monthly/{m}/index.html", layout(m + " 月度情报", content, "月度档案"))
 
