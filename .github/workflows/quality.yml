@@ -31,3 +31,26 @@ jobs:
           test -f _site/topics/mobility/index.html
           test -f _site/topics/lifestyle/index.html
           test -f _site/assets/site.css
+
+  browser-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install browser QA dependencies
+        run: |
+          python -m pip install beautifulsoup4 playwright
+          python -m playwright install --with-deps chromium
+      - name: Validate Olah article semantics
+        run: python .pi/skills/olah-style-paper-posts/scripts/validate.py content/reports/metro-fare-2026/index.html
+      - name: Run Chromium viewport and interaction checks
+        run: python .pi/skills/olah-style-paper-posts/scripts/browser_check.py content/reports/metro-fare-2026/index.html --output qa-reports/metro-fare-2026
+      - name: Save browser QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: metro-fare-browser-qa
+          path: qa-reports/metro-fare-2026
+          if-no-files-found: ignore
