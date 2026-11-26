@@ -27,7 +27,7 @@ class TestShanghaiSite(unittest.TestCase):
     def test_required_routes(self):
         for path in ("index.html", "archive/index.html", "daily/index.html",
                      "topics/index.html", "districts/index.html",
-                     "reports/index.html", "sources/index.html", "404.html", "feed.json"):
+                     "reports/index.html", "monthly/index.html", "monthly/2026-10/index.html", "sources/index.html", "404.html", "feed.json"):
             self.assertTrue((build_site.OUT / path).is_file(), path)
 
     def test_draft_is_not_public(self):
@@ -41,6 +41,12 @@ class TestShanghaiSite(unittest.TestCase):
         self.assertIn('/shanghai-intelligence/topics/jobs/', home)
         self.assertIn("招聘与编制", home)
         self.assertIn("活动与生活", home)
+
+    def test_october_month_archiving(self):
+        page = (build_site.OUT / "monthly/2026-10/index.html").read_text(encoding="utf-8")
+        self.assertIn("2026-10", page)
+        self.assertIn("sh-oct2026-ai-manufacturing-plan", page)
+        self.assertIn("october-2026-shanghai-intelligence", page)
 
     def test_feed_is_array(self):
         data = json.loads((build_site.OUT / "feed.json").read_text(encoding="utf-8"))

@@ -40,3 +40,7 @@
 
 ## 上游归档与许可
 完整归档来自 https://github.com/1998x-stack/Olah-style-posts，锁定 git tree cd424ad69a66100bfca12e40ec01c44451abae22（共62个文件）。原上游未发现 LICENSE，不能擅自宣称其对第三方采用某种开源许可；沿用原文档中的署名与素材许可注意事项。
+
+## 月度档案
+
+`/monthly/YYYY-MM/` 由官方发布日期字段自动生成，`/monthly/` 展示所有已有月份。2026年10月的研究长文独立在 `/reports/october-2026-shanghai-intelligence/`；后续每月新增 `data/events/` 与 `content/reports/` 即可延续。
