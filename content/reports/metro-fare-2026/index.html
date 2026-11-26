@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="description" content="图解上海轨道交通2026年12月起实施的票价机制：官方文件、分段区间与新旧基准票价交互计算。">
+<title>上海地铁新票价究竟改了什么？｜上海城市情报</title>
+<style>
+:root{--paper:#fffdf9;--ink:#203035;--subtle:#53676d;--accent:#147f80;--border:#dce8e4;--surface:#f3f9f6;--warm:#d06d4d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.85 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+a{color:var(--accent);text-underline-offset:.18em}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:3px}.skip{position:absolute;top:-100px;left:1rem;padding:.5rem 1rem;background:#fff;z-index:10}.skip:focus{top:0}
+.layout{max-width:1260px;display:grid;grid-template-columns:210px minmax(0,1fr);gap:clamp(2rem,5vw,5rem);padding:3.5rem 2rem 7rem;margin:auto}.toc{position:sticky;top:2rem;align-self:start;font-size:13px;max-height:90vh;overflow:auto}.toc strong{display:block;margin-bottom:1.2rem}.toc a{display:block;border-left:2px solid var(--border);padding:.45rem .75rem;text-decoration:none;color:var(--subtle)}.toc a:hover{border-color:var(--accent);color:var(--accent)}main{min-width:0}article{max-width:860px}.eyebrow{color:var(--accent);font-weight:700;font-size:12px;letter-spacing:.12em}.article-header h1{font:600 clamp(2.55rem,5vw,4.6rem)/1.2 Georgia,"Songti SC","SimSun",serif;letter-spacing:-.045em;margin:.5rem 0 1rem}.dek{color:var(--subtle);font-size:1.18rem;line-height:1.7;max-width:760px}.meta{font-size:12px;color:var(--subtle);border-bottom:1px solid var(--border);padding:1rem 0 1.6rem}section{scroll-margin-top:2rem;margin-top:4rem}section h2{font:600 clamp(1.75rem,3vw,2.3rem)/1.4 Georgia,"Songti SC","SimSun",serif;margin:0 0 1.2rem}p{margin:1rem 0}figure{margin:2rem 0;padding:1.3rem;border:1px solid var(--border);border-radius:16px;background:#fff}figure svg{display:block;width:100%;height:auto}figcaption{border-top:1px solid var(--border);padding-top:.7rem;margin-top:1rem;color:var(--subtle);font-size:13px}.note{padding:1rem 1.2rem;border-left:4px solid var(--accent);background:var(--surface);border-radius:0 8px 8px 0}.comparison{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:1.5rem 0}.comparison .item{padding:19px;border:1px solid var(--border);border-radius:11px;background:var(--surface)}.comparison strong{display:block;font-size:24px;font-weight:650}.comparison small{font-size:12px;color:var(--subtle)}.calculator{padding:24px;border:1px solid var(--border);border-radius:14px;background:var(--surface)}.calculator label{display:block;font-weight:650}.calculator input{width:100%;accent-color:var(--accent);margin:1.5rem 0}.calc-results{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.calc-results div{background:#fff;padding:16px;border-radius:10px;border:1px solid var(--border);min-width:0}.calc-results strong{display:block;font:650 29px/1.3 Georgia,"Songti SC",serif}.calc-results span{font-size:11px;color:var(--subtle)}.control-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}button{font:inherit;font-size:12px;border:1px solid var(--border);background:#fff;color:var(--ink);padding:6px 12px;border-radius:8px;cursor:pointer}.control-row button:hover{border-color:var(--accent)}.caption{color:var(--subtle);font-size:12px}.limits{padding-left:1.3rem}.limits li{margin-bottom:.7rem}.evidence li{margin-bottom:.75rem;overflow-wrap:anywhere}footer{border-top:1px solid var(--border);margin-top:3rem;padding:1.5rem 0;font-size:12px;color:var(--subtle)}
+@media(max-width:900px){.layout{display:block;padding:2rem 1.2rem 4rem}.toc{position:static;margin-bottom:2rem;max-height:none;border-bottom:1px solid var(--border);padding-bottom:.7rem}.toc a{display:inline-block;border-left:0;border-bottom:2px solid transparent}}
+@media(max-width:480px){body{font-size:16px}.layout{padding:1.2rem 1rem 3rem}figure{padding:.65rem}.comparison{grid-template-columns:1fr}.calculator{padding:16px}.calc-results strong{font-size:23px}section{margin-top:3.2rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
+@media print{body{background:#fff;color:#000;font-size:11pt}.layout{display:block;padding:0}.toc,.control-row,.skip{display:none}figure{break-inside:avoid}.calculator{break-inside:avoid}section{margin-top:1.5rem}}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">跳转至正文</a>
+<div class="layout">
+<nav class="toc" aria-label="文章目录">
+<strong>上海轨道交通票价机制</strong>
+<a href="#question">01 · 改了什么</a>
+<a href="#steps">02 · 计价阶梯</a>
+<a href="#calculator">03 · 交互计算</a>
+<a href="#limits">04 · 适用边界</a>
+<a href="#evidence">05 · 原始依据</a>
+<a href="/shanghai-intelligence/reports/">返回专题研究</a>
+</nav>
+<main id="content"><article>
+<header class="article-header">
+<span class="eyebrow">政策机制 / 交通与民生 / 2026-11-26</span>
+<h1>上海地铁新票价，究竟改了什么？</h1>
+<p class="dek">起乘价没有变成4元，仍为3元；真正变化的是3元可以覆盖的里程，以及以后每加1元对应的距离。</p>
+<p class="meta">政策发布：2026-11-23 · 生效：2026-12-01 · 核验依据：沪发改价调〔2026〕58号</p>
+</header>
+<section id="question">
+<h2>01 · 不是起步价格，而是起步距离</h2>
+<p>旧机制的3元起乘里程为0—6公里。2026年11月23日公布的新基准票价，起乘价依然是3元，但起乘里程缩短为0—4公里。后续价格增加采用多级差异化间距。</p>
+<div class="comparison">
+<div class="item"><small>调整前</small><strong>3元 / 0—6公里</strong><small>超过6公里后，每10公里加1元</small></div>
+<div class="item"><small>调整后</small><strong>3元 / 0—4公里</strong><small>之后采用4、4、4、7、7、10、10公里阶梯</small></div>
+</div>
+<figure>
+<svg viewBox="0 0 860 275" role="img" aria-labelledby="bar-title bar-desc" xmlns="http://www.w3.org/2000/svg">
+<title id="bar-title">调整前后3元票价覆盖距离对比</title>
+<desc id="bar-desc">旧机制3元覆盖0到6公里；新机制3元覆盖0到4公里，其余乘程按阶梯加价。</desc>
+<rect width="860" height="275" rx="18" fill="#f6faf8"/>
+<text x="50" y="52" fill="#203035" font-size="20" font-weight="700">3 元起步区间对比</text>
+<text x="50" y="119" fill="#53676d" font-size="18">调整前</text>
+<rect x="166" y="88" width="474" height="46" rx="9" fill="#a8beb7"/>
+<text x="381" y="118" fill="#183b38" font-size="21" text-anchor="middle">0—6 公里</text>
+<text x="50" y="200" fill="#53676d" font-size="18">调整后</text>
+<rect x="166" y="169" width="316" height="46" rx="9" fill="#147f80"/>
+<text x="320" y="198" fill="white" font-size="21" text-anchor="middle">0—4 公里</text>
+<path d="M482 169 H640" stroke="#d06d4d" stroke-width="3" stroke-dasharray="9 7"/>
+<text x="650" y="196" fill="#d06d4d" font-size="17">超出起步区间</text>
+<text x="166" y="247" fill="#53676d" font-size="13">图示仅比较起步区间，并非按真实线路比例绘制</text>
+</svg>
+<figcaption>3元的名义起步价不变，但起步区间缩短。最终支付金额还可能受运营单位公布的优惠措施影响。</figcaption>
+</figure>
+</section>
+<section id="steps">
+<h2>02 · 新机制的每一元是如何增加的？</h2>
+<p>官方文件规定，0—4公里为3元；之后依次每4、4、4、7、7、10、10公里增加1元；50公里以上则每15公里增加1元。</p>
+<figure>
+<svg viewBox="0 0 860 350" role="img" aria-labelledby="steps-title steps-desc" xmlns="http://www.w3.org/2000/svg">
+<title id="steps-title">不同里程段的基准票价阶梯</title>
+<desc id="steps-desc">0至4公里3元；4至8公里4元；8至12公里5元；12至16公里6元；16至23公里7元；23至30公里8元；30至40公里9元；40至50公里10元。</desc>
+<rect width="860" height="350" rx="18" fill="#f6faf8"/>
+<text x="46" y="42" fill="#203035" font-size="20" font-weight="700">新基准票价分段图</text>
+<g font-size="14" fill="#53676d">
+<text x="46" y="94">3元</text><text x="46" y="126">4元</text><text x="46" y="158">5元</text>
+<text x="46" y="190">6元</text><text x="46" y="222">7元</text><text x="46" y="254">8元</text>
+<text x="46" y="286">9元</text><text x="46" y="318">10元</text>
+</g>
+<g fill="#147f80">
+<rect x="120" y="77" width="60" height="18" rx="4"/>
+<rect x="120" y="109" width="120" height="18" rx="4" opacity=".93"/>
+<rect x="120" y="141" width="180" height="18" rx="4" opacity=".86"/>
+<rect x="120" y="173" width="240" height="18" rx="4" opacity=".79"/>
+<rect x="120" y="205" width="345" height="18" rx="4" opacity=".72"/>
+<rect x="120" y="237" width="450" height="18" rx="4" opacity=".65"/>
+<rect x="120" y="269" width="600" height="18" rx="4" opacity=".58"/>
+<rect x="120" y="301" width="705" height="18" rx="4" opacity=".50"/>
+</g>
+<g font-size="13" fill="#203035">
+<text x="188" y="90">4公里</text><text x="248" y="122">8公里</text>
+<text x="308" y="154">12公里</text><text x="368" y="186">16公里</text>
+<text x="473" y="218">23公里</text><text x="578" y="250">30公里</text>
+<text x="728" y="282">40公里</text><text x="778" y="314">50公里</text>
+</g>
+</svg>
+<figcaption>横向长度对应各阶梯的累计距离。距离恰在边界点时归入较低档；超过该点才进入下一档。数据根据市发改委复函绘制。</figcaption>
+</figure>
+</section>
+<section id="calculator">
+<h2>03 · 用相同的距离比较新旧基准票价</h2>
+<p>在下方调整单次乘车里程，即可看到不含优惠的基准票价差异。该演示为文件规则的数学推算，不是官方实时票价查询系统。</p>
+<div class="calculator">
+<label for="distance">假设轨道交通计价里程：<output id="distance-value" for="distance">8</output> 公里</label>
+<input id="distance" aria-label="选择乘车里程，单位公里" type="range" min="1" max="70" step="1" value="8">
+<div class="calc-results" aria-live="polite">
+<div><span>调整前基准价</span><strong id="before">4元</strong></div>
+<div><span>调整后基准价</span><strong id="after">4元</strong></div>
+<div><span>调整后差额</span><strong id="difference">0元</strong></div>
+</div>
+<div class="control-row" aria-label="常见里程示例">
+<button type="button" data-distance="4">4公里</button><button type="button" data-distance="8">8公里</button>
+<button type="button" data-distance="20">20公里</button><button type="button" data-distance="35">35公里</button><button type="button" data-distance="50">50公里</button>
+</div>
+<p class="caption">计价演示采用整公里输入；实际出站计价以运营方公布的乘车里程与优惠规则为准。</p>
+</div>
+</section>
+<section id="limits">
+<h2>04 · 哪些范围和条件容易被误解？</h2>
+<ul class="limits">
+<li><strong>基准价格不等于每次实际支付金额。</strong> 运营方可在规定框架下实施下浮和优惠；计次票、换乘等优惠须以正式实施细则为准。</li>
+<li><strong>适用线路存在排除项。</strong> 文件明确不包括磁浮线、金山铁路、市域机场线及以后开通的市域线。</li>
+<li><strong>文件日期不等于实施日期。</strong> 该复函发表于11月23日，但新机制从12月1日正式执行。</li>
+<li><strong>历史听证方案不是最终规则。</strong> 分析政策应优先以正式文件核实，而不是转述意见征求阶段方案。</li>
+</ul>
+<div class="note">实际行动：确定日常通勤区间，在新规生效前后对照公布的票价与优惠方案，再判断是否购买计次票。</div>
+</section>
+<section id="evidence">
+<h2>05 · 原始依据与可复核证据</h2>
+<ol class="evidence">
+<li>上海市发展和改革委员会，《关于优化上海市轨道交通票价机制的复函》，沪发改价调〔2026〕58号。<a href="https://fgw.sh.gov.cn/fgw_jjjctk/20261123/f57b63885c514c829ee269ed589ab2b9.html" rel="noopener noreferrer" target="_blank">查看原文</a></li>
+<li>正文第一部分，第1项：0—4公里3元及后续阶梯距离；第2项：适用线路范围。</li>
+<li>正文第二部分之后：新机制2026年12月1日执行。本文交互计算为根据上述规则推导的演示值。</li>
+</ol>
+</section>
+<footer>上海城市情报独立研究页面 · 不属于政府官方网站 · 具体办事和乘车规则以主管部门与运营方正式公告为准。</footer>
+</article></main></div>
+<script>
+(function(){
+"use strict";
+var range=document.getElementById("distance");
+var val=document.getElementById("distance-value");
+var before=document.getElementById("before");
+var after=document.getElementById("after");
+var diff=document.getElementById("difference");
+function oldFare(k){return 3+Math.ceil(Math.max(0,k-6)/10);}
+function newFare(k){
+  var bounds=[4,8,12,16,23,30,40,50];
+  if(k<=4)return 3;
+  for(var i=1;i<bounds.length;i++)if(k<=bounds[i])return 3+i;
+  return 10+Math.ceil((k-50)/15);
+}
+function render(){var k=Number(range.value),oldP=oldFare(k),newP=newFare(k),delta=newP-oldP;
+  val.textContent=String(k);before.textContent=oldP+"元";after.textContent=newP+"元";
+  diff.textContent=(delta>0?"+":"")+delta+"元";
+}
+range.addEventListener("input",render);
+document.querySelectorAll("[data-distance]").forEach(function(btn){
+ btn.addEventListener("click",function(){range.value=btn.getAttribute("data-distance");render();range.focus();});
+});
+render();
+})();
+</script>
+</body></html>
