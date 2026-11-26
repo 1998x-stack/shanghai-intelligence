@@ -1,0 +1,33 @@
+{
+  "id": "hongkou-teacher-recruitment-2027",
+  "title": "虹口区公办学校发布2027年第一批教师招聘公告",
+  "topic": "jobs",
+  "districts": [
+    "hongkou"
+  ],
+  "published_at": "2026-11-26",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "虹口区政府发布2027年教育系统下属公办学校教师招聘（第一批），报名资格与考核程序以原公告为准。",
+  "impact": "符合学科岗位、教师资格、学历及其他条件的应聘者。",
+  "action": "查阅公告、区教育局岗位表与报名说明，确认教学学科、招聘身份和规定期限。",
+  "source_url": "https://www.shhk.gov.cn/xwzx/002014/20261126/709d5b47-cc8e-47f4-a9d0-03f1fe12e047.html",
+  "official_url": "https://www.shhk.gov.cn/xwzx/002014/20261126/709d5b47-cc8e-47f4-a9d0-03f1fe12e047.html",
+  "checked_at": "2026-11-26",
+  "evidence": [
+    {
+      "claim": "虹口区政府发布2027年公办学校教师招聘第一批公告",
+      "source_url": "https://www.shhk.gov.cn/xwzx/002014/20261126/709d5b47-cc8e-47f4-a9d0-03f1fe12e047.html",
+      "locator": "公告标题与信息时间",
+      "status": "verified"
+    },
+    {
+      "claim": "应聘需要经历资格审核、学校考核及后续考核程序",
+      "source_url": "https://www.shhk.gov.cn/xwzx/002014/20261126/709d5b47-cc8e-47f4-a9d0-03f1fe12e047.html",
+      "locator": "公告问题六：报名成功与考核流程",
+      "status": "verified"
+    }
+  ],
+  "status": "verified"
+}

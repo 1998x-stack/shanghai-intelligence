@@ -55,5 +55,365 @@
       "mobility",
       "lifestyle"
     ]
+  },
+  {
+    "id": "policy",
+    "name": "上海市统一政策发布平台",
+    "type": "official",
+    "url": "https://www.shanghai.gov.cn/zhengce/list",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-pudong",
+    "name": "浦东新区人民政府",
+    "type": "official",
+    "url": "https://www.pudong.gov.cn/",
+    "district": "pudong",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-huangpu",
+    "name": "黄浦区人民政府",
+    "type": "official",
+    "url": "https://www.shhuangpu.gov.cn/",
+    "district": "huangpu",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-jingan",
+    "name": "静安区人民政府",
+    "type": "official",
+    "url": "https://www.jingan.gov.cn/",
+    "district": "jingan",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-xuhui",
+    "name": "徐汇区人民政府",
+    "type": "official",
+    "url": "https://www.xuhui.gov.cn/",
+    "district": "xuhui",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-changning",
+    "name": "长宁区人民政府",
+    "type": "official",
+    "url": "https://www.shcn.gov.cn/",
+    "district": "changning",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-putuo",
+    "name": "普陀区人民政府",
+    "type": "official",
+    "url": "https://www.shpt.gov.cn/",
+    "district": "putuo",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-hongkou",
+    "name": "虹口区人民政府",
+    "type": "official",
+    "url": "https://www.shhk.gov.cn/",
+    "district": "hongkou",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-yangpu",
+    "name": "杨浦区人民政府",
+    "type": "official",
+    "url": "https://www.shyp.gov.cn/",
+    "district": "yangpu",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-baoshan",
+    "name": "宝山区人民政府",
+    "type": "official",
+    "url": "https://www.shbsq.gov.cn/",
+    "district": "baoshan",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-minhang",
+    "name": "闵行区人民政府",
+    "type": "official",
+    "url": "https://www.shmh.gov.cn/",
+    "district": "minhang",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-jiading",
+    "name": "嘉定区人民政府",
+    "type": "official",
+    "url": "https://www.jiading.gov.cn/",
+    "district": "jiading",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-jinshan",
+    "name": "金山区人民政府",
+    "type": "official",
+    "url": "https://www.jinshan.gov.cn/",
+    "district": "jinshan",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-songjiang",
+    "name": "松江区人民政府",
+    "type": "official",
+    "url": "https://www.songjiang.gov.cn/",
+    "district": "songjiang",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-qingpu",
+    "name": "青浦区人民政府",
+    "type": "official",
+    "url": "https://www.shqp.gov.cn/",
+    "district": "qingpu",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-fengxian",
+    "name": "奉贤区人民政府",
+    "type": "official",
+    "url": "https://www.fengxian.gov.cn/",
+    "district": "fengxian",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "district-chongming",
+    "name": "崇明区人民政府",
+    "type": "official",
+    "url": "https://www.shcm.gov.cn/",
+    "district": "chongming",
+    "topics": [
+      "jobs",
+      "housing",
+      "benefits",
+      "education",
+      "economy",
+      "mobility",
+      "lifestyle"
+    ]
+  },
+  {
+    "id": "agency-fgw",
+    "name": "上海市发展和改革委员会",
+    "type": "official",
+    "url": "https://fgw.sh.gov.cn/",
+    "topics": [
+      "housing",
+      "benefits",
+      "economy",
+      "mobility"
+    ]
+  },
+  {
+    "id": "agency-fgj",
+    "name": "上海市房屋管理局",
+    "type": "official",
+    "url": "https://fgj.sh.gov.cn/",
+    "topics": [
+      "housing"
+    ]
+  },
+  {
+    "id": "agency-transport",
+    "name": "上海市交通委员会",
+    "type": "official",
+    "url": "https://jtw.sh.gov.cn/",
+    "topics": [
+      "mobility"
+    ]
+  },
+  {
+    "id": "agency-housingfund",
+    "name": "上海市公积金管理中心",
+    "type": "official",
+    "url": "https://www.shzfgjj.cn/",
+    "topics": [
+      "housing",
+      "benefits"
+    ]
+  },
+  {
+    "id": "agency-civilservice",
+    "name": "上海市公务员局",
+    "type": "official",
+    "url": "https://www.shacs.gov.cn/",
+    "topics": [
+      "jobs"
+    ]
+  },
+  {
+    "id": "agency-medical",
+    "name": "上海市医疗保障局",
+    "type": "official",
+    "url": "https://ybj.sh.gov.cn/",
+    "topics": [
+      "benefits",
+      "mobility"
+    ]
+  },
+  {
+    "id": "agency-culture",
+    "name": "上海市文化和旅游局",
+    "type": "official",
+    "url": "https://whlyj.sh.gov.cn/",
+    "topics": [
+      "lifestyle",
+      "economy"
+    ]
+  },
+  {
+    "id": "agency-educationdept",
+    "name": "上海市教育委员会",
+    "type": "official",
+    "url": "https://edu.sh.gov.cn/",
+    "topics": [
+      "education",
+      "jobs"
+    ]
+  },
+  {
+    "id": "agency-union",
+    "name": "上海市总工会",
+    "type": "official",
+    "url": "https://www.shszgh.cn/",
+    "topics": [
+      "jobs",
+      "benefits"
+    ]
   }
 ]

@@ -1,0 +1,43 @@
+{
+  "id": "sh-spring-exam-2027",
+  "title": "2027年上海春季高考招生实施办法发布",
+  "topic": "education",
+  "districts": [],
+  "published_at": "2026-11-05",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "上海市教育考试院发布春考实施办法：27所高校参加，统一文化考试安排在2027年1月9日至11日。",
+  "impact": "已按规定完成春季高考项目报名和资格审核的考生及其家庭、相关教师。",
+  "action": "关注1月27日成绩公布、2月21日至22日志愿填报，并逐条核对资格条件。",
+  "source_url": "https://www.shmeea.edu.cn/page/06300/20261105/20653.html",
+  "official_url": "https://www.shmeea.edu.cn/page/06300/20261105/20653.html",
+  "checked_at": "2026-11-26",
+  "evidence": [
+    {
+      "claim": "参与春考招生的普通高校为27所",
+      "source_url": "https://www.shmeea.edu.cn/page/06300/20261105/20653.html",
+      "locator": "实施办法第一节招生院校",
+      "status": "verified"
+    },
+    {
+      "claim": "统一文化考试科目为语文、数学、外语，总分450分",
+      "source_url": "https://www.shmeea.edu.cn/page/06300/20261105/20653.html",
+      "locator": "实施办法第三节考试",
+      "status": "verified"
+    },
+    {
+      "claim": "2027年1月9日至11日统一文化考试，1月27日公布成绩",
+      "source_url": "https://www.shmeea.edu.cn/page/06300/20261105/20653.html",
+      "locator": "实施办法第三节考试时间及成绩",
+      "status": "verified"
+    },
+    {
+      "claim": "2027年2月21日至22日填报志愿",
+      "source_url": "https://www.shmeea.edu.cn/page/06300/20261105/20653.html",
+      "locator": "实施办法第四节志愿填报",
+      "status": "verified"
+    }
+  ],
+  "status": "verified"
+}

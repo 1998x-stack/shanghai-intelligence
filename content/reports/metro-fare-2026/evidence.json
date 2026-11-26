@@ -1,0 +1,38 @@
+[
+  {
+    "id": "price-base",
+    "claim": "3元起乘、起乘间距0—4公里，之后按4/4/4/7/7/10/10公里加1元，50公里以上每15公里加1元",
+    "kind": "official-rule",
+    "source_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20261123/f57b63885c514c829ee269ed589ab2b9.html",
+    "locator": "正文一（1）基准票价",
+    "status": "verified",
+    "notes": "正式复函；演示程序按区间端点计算"
+  },
+  {
+    "id": "scope",
+    "claim": "磁浮线、金山铁路、市域机场线及以后开通的市域线不在适用范围",
+    "kind": "official-rule",
+    "source_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20261123/f57b63885c514c829ee269ed589ab2b9.html",
+    "locator": "正文一（2）适用范围",
+    "status": "verified",
+    "notes": "范围限定"
+  },
+  {
+    "id": "start",
+    "claim": "票价机制自2026年12月1日起执行",
+    "kind": "official-rule",
+    "source_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20261123/f57b63885c514c829ee269ed589ab2b9.html",
+    "locator": "正文二之后实施时间段落",
+    "status": "verified",
+    "notes": "发布日和生效日不同"
+  },
+  {
+    "id": "old-price",
+    "claim": "旧机制0—6公里3元，之后每10公里加1元",
+    "kind": "official-background",
+    "source_url": "https://fgw.sh.gov.cn/fgw_zcjd/20260819/546a7d3b27914f4db2e81fdc0510b164.html",
+    "locator": "政策解读：现行轨道交通票价机制",
+    "status": "verified",
+    "notes": "2026年8月市发改委解读中的旧制说明"
+  }
+]

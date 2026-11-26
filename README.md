@@ -24,9 +24,10 @@
     python scripts/validate_data.py
     python scripts/build_site.py
     python -m unittest discover -s tests -v
+    SITE_BASE=/ python scripts/build_site.py
     python -m http.server 8080 --directory _site
 
-打开 http://localhost:8080/shanghai-intelligence/ 进行预览（输出路径使用项目站点的 base）。
+打开 http://localhost:8080/ 查看本地版。GitHub Actions 使用默认 base 路径 /shanghai-intelligence/。
 
 ## 增加新内容
 1. 阅读 docs/ADDING_CONTENT.md 与 AGENTS.md。
