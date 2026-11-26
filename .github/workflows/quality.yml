@@ -1,0 +1,33 @@
+name: Quality Gate
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate structured records and upstream mirror
+        run: python scripts/validate_data.py
+      - name: Build site
+        run: python scripts/build_site.py
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Verify generated website
+        run: |
+          test -f _site/index.html
+          test -f _site/topics/jobs/index.html
+          test -f _site/topics/housing/index.html
+          test -f _site/topics/benefits/index.html
+          test -f _site/topics/education/index.html
+          test -f _site/topics/economy/index.html
+          test -f _site/topics/mobility/index.html
+          test -f _site/topics/lifestyle/index.html
+          test -f _site/assets/site.css
