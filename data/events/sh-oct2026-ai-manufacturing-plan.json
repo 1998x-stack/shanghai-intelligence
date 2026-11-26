@@ -1,0 +1,37 @@
+{
+  "id": "sh-oct2026-ai-manufacturing-plan",
+  "topic": "economy",
+  "title": "上海出台新一代智能制造行动方案：2028年AI产业目标明确",
+  "districts": [],
+  "published_at": "2026-10-27",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市经济信息化委10月27日公开行动方案，提出到2028年培育500家先进级智能工厂、2000个以上AI制造应用场景、300个以上高水平智能体并推动8000台人形机器人进工厂。",
+  "impact": "制造业企业、工业软件开发者、工业机器人与AI服务商，属于产业目标而非已完成业绩。",
+  "action": "把指标拆成机会方向：工业AI、工业数据集、智能体、机器人核心零部件与工厂改造，并持续监测项目征集。",
+  "source_url": "https://www.shanghai.gov.cn/gwk/search/content/b04b3f2de4c44304ae05dcf3d7e1f6f8",
+  "official_url": "https://www.shanghai.gov.cn/gwk/search/content/b04b3f2de4c44304ae05dcf3d7e1f6f8",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "印发日期10月26日、发布日期10月27日",
+      "locator": "公文页眉",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/b04b3f2de4c44304ae05dcf3d7e1f6f8",
+      "status": "verified"
+    },
+    {
+      "claim": "到2028年500家先进级智能工厂、2000个以上AI场景、300个以上智能体",
+      "locator": "行动方案总体目标",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/b04b3f2de4c44304ae05dcf3d7e1f6f8",
+      "status": "verified"
+    },
+    {
+      "claim": "推动8000台人形机器人进工厂是规划目标",
+      "locator": "行动方案总体目标",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/b04b3f2de4c44304ae05dcf3d7e1f6f8",
+      "status": "verified"
+    }
+  ]
+}

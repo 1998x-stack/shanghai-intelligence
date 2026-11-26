@@ -1,0 +1,37 @@
+{
+  "id": "sh-oct2026-urban-renewal-2026-2028",
+  "topic": "housing",
+  "title": "上海城市更新三年行动计划公开：旧改、社区、基础设施协同推进",
+  "districts": [],
+  "published_at": "2026-10-21",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市委市政府办公厅10月21日公开城市更新三年行动计划（文件印发于7月23日）：计划实施70万平方米旧住房成套改造、约2400万平方米老旧小区改造。",
+  "impact": "居住在老旧社区的市民、相关建设企业和各区公共服务管理机构。",
+  "action": "这属于三年规划目标而非个人补贴；继续关注各区实际项目清单、征收及施工公示。",
+  "source_url": "https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html",
+  "official_url": "https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "文件印发日期7月23日、公开日期10月21日",
+      "locator": "政府公文页眉",
+      "source_url": "https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html",
+      "status": "verified"
+    },
+    {
+      "claim": "实施70万平方米旧住房成套改造、约2400万平方米老旧小区改造",
+      "locator": "行动计划第一部分",
+      "source_url": "https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html",
+      "status": "verified"
+    },
+    {
+      "claim": "完成300公里以上老旧供水管网改造",
+      "locator": "行动计划第三部分",
+      "source_url": "https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html",
+      "status": "verified"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "sh-oct2026-adult-exam-ticket",
+  "topic": "education",
+  "title": "上海成人高考10月准考证打印时间公布",
+  "districts": [],
+  "published_at": "2026-10-10",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-10-18",
+  "summary": "上海市教育考试院公布2026年成人高考准考证下载入口，打印时间10月10日9:00至10月18日22:00。",
+  "impact": "已经报名参加2026年成人高校招生考试的考生。",
+  "action": "打印窗口及10月17—18日考试均已结束，转入成绩和录取信息查询阶段。",
+  "source_url": "https://sh.bendibao.com/edu/20261010/309730.shtm",
+  "official_url": "https://www.shmeea.edu.cn/page/24200/20261010/20608.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "考院网站于10月10日发布准考证下载入口",
+      "locator": "招生考试准考证页面标题与时间",
+      "source_url": "https://www.shmeea.edu.cn/page/24200/20261010/20608.html",
+      "status": "verified"
+    },
+    {
+      "claim": "下载打印时间10月10日9:00至10月18日22:00",
+      "locator": "页面下载打印时间",
+      "source_url": "https://www.shmeea.edu.cn/page/24200/20261010/20608.html",
+      "status": "verified"
+    }
+  ]
+}

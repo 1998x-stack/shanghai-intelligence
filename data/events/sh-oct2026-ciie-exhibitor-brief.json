@@ -1,0 +1,32 @@
+{
+  "id": "sh-oct2026-ciie-exhibitor-brief",
+  "topic": "economy",
+  "title": "进博会10月发布参展规模：4142家企业参与第九届展会",
+  "districts": [],
+  "published_at": "2026-10-17",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市政府转载解放日报关于国新办发布会的信息：第九届进博会共有148个国家和地区的4142家企业参展，企业展面积突破37万平方米。",
+  "impact": "关注进出口贸易、国际采购、装备制造和展会溢出机会的企业与研究人员。",
+  "action": "数据为10月16日发布会前瞻，不是展后成交统计；后续应与主办方实际成交与采购公告比较。",
+  "source_url": "https://sh.bendibao.com/news/20261019/309882.shtm",
+  "official_url": "https://www.shanghai.gov.cn/nw4411/20261017/eb7f325883324d46a8929b20d51ef2c3.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "企业展涉及148个国家地区、4142家企业",
+      "locator": "新闻中对中国国际进口博览局发布会的引述",
+      "source_url": "https://www.shanghai.gov.cn/nw4411/20261017/eb7f325883324d46a8929b20d51ef2c3.html",
+      "status": "verified"
+    },
+    {
+      "claim": "企业展面积突破37万平方米",
+      "locator": "报道首段",
+      "source_url": "https://www.shanghai.gov.cn/nw4411/20261017/eb7f325883324d46a8929b20d51ef2c3.html",
+      "status": "verified"
+    }
+  ],
+  "context": "市政府转载媒体报道；企业数来自进博局发布会，不等同于上海市政府独立统计。"
+}

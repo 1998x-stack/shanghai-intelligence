@@ -109,6 +109,7 @@ def layout(title: str, body: str, current: str = "", description: str = "") -> s
     nav = "".join((
         nav_item("", "首页", current),
         nav_item("daily/", "每日简报", current),
+        nav_item("monthly/", "月度档案", current),
         nav_item("topics/", "专题", current),
         nav_item("districts/", "地区", current),
         nav_item("archive/", "档案", current),
@@ -246,6 +247,37 @@ def build_daily(events: list[dict]) -> None:
         write(f"daily/{d}/index.html", layout(d + " 日报", content, "每日简报"))
 
 
+
+def build_monthly(events: list[dict]) -> None:
+    """Evergreen month archives built automatically from published event dates."""
+    by_month = defaultdict(list)
+    for event in events:
+        by_month[event["published_at"][:7]].append(event)
+    months = sorted(by_month, reverse=True)
+    links = "".join(
+        f'<a class="daily-row" href="{local("monthly/" + m + "/")}"><span>{esc(m)}</span><span>{len(by_month[m])} 条已核验情报 ↗</span></a>'
+        for m in months)
+    if not links:
+        links = '<div class="empty-state"><strong>尚无月度档案</strong><p>未来新增经过核验的事件，会按官方发布日期自动归档。</p></div>'
+    index = hero("MONTHLY REVIEW", "月度情报档案", "按官方公开发布日期组织，每个月保留独立页面，数据增加后自动更新。")
+    index += '<section class="shell section">' + links + '</section>'
+    write("monthly/index.html", layout("月度档案", index, "月度档案"))
+    for m in months:
+        items = by_month[m]
+        counts = Counter(e["topic"] for e in items)
+        tags = "".join(
+            f'<a class="badge" href="{local("topics/" + t["id"] + "/")}">{esc(t["name"])} {counts[t["id"]]}</a> '
+            for t in TOPICS if counts.get(t["id"]))
+        content = hero("MONTH / " + m, m + " · 上海城市情报", "以下事件以原始官方发布时间归档；不是上海本地宝全站该月报道数量。")
+        content += '<section class="shell section"><div class="badge-row">' + tags + '</div>'
+        for report in REPORTS:
+            if report.get("research_month") == m:
+                content += ('<p><a class="text-link" href="' + local("reports/" + report["slug"] + "/")
+                            + '">' + esc("阅读月度研究：" + report["title"]) + ' →</a></p>')
+        content += '<div class="event-list">' + event_cards(items) + '</div></section>'
+        write(f"monthly/{m}/index.html", layout(m + " 月度情报", content, "月度档案"))
+
+
 def build_events(events: list[dict]) -> None:
     for e in events:
         district = " / ".join(DISTRICT_BY_ID[d]["name"] for d in e.get("districts", [])) or "全市"
@@ -322,6 +354,7 @@ def build() -> None:
     build_districts(events)
     build_archive(events)
     build_daily(events)
+    build_monthly(events)
     build_events(events)
     build_sources()
     build_reports()

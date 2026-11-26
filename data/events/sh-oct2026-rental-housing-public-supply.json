@@ -1,0 +1,37 @@
+{
+  "id": "sh-oct2026-rental-housing-public-supply",
+  "topic": "housing",
+  "title": "市房管局发布10月市筹公租房供应和轮候信息",
+  "districts": [],
+  "published_at": "2026-10-13",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市房管局10月13日发布市筹公共租赁住房公积金房源信息，数据截至9月下旬，包含项目可供房源、轮候序号、租金与运营机构。",
+  "impact": "需要市筹公租房或已在轮候队列中的申请家庭、个人与用人单位。",
+  "action": "历史房源数据不能作为11月实时余量；应联系运营机构或使用官方办理渠道查询最新轮候状况。",
+  "source_url": "https://sh.bendibao.com/fangchan/20261027/310050.shtm",
+  "official_url": "https://fgj.sh.gov.cn/ggzlzfgsgg/20261013/389fe3726e164c579a50c2a083186eff.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "10月版数据由运营机构提供，部分截至9月28日或更早",
+      "locator": "公告注释第2项",
+      "source_url": "https://fgj.sh.gov.cn/ggzlzfgsgg/20261013/389fe3726e164c579a50c2a083186eff.html",
+      "status": "verified"
+    },
+    {
+      "claim": "馨宁公寓等项目提供轮候叫号及租金标准",
+      "locator": "公告项目表",
+      "source_url": "https://fgj.sh.gov.cn/ggzlzfgsgg/20261013/389fe3726e164c579a50c2a083186eff.html",
+      "status": "verified"
+    },
+    {
+      "claim": "各项目供应情况持续变化，需向运营单位复核",
+      "locator": "公告注释第2项",
+      "source_url": "https://fgj.sh.gov.cn/ggzlzfgsgg/20261013/389fe3726e164c579a50c2a083186eff.html",
+      "status": "verified"
+    }
+  ]
+}

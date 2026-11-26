@@ -1,0 +1,39 @@
+{
+  "id": "jinshan-oct2026-expanded-social-insurance",
+  "topic": "benefits",
+  "title": "金山区扩大社保补贴申领：符合条件人员个人缴费部分补25%",
+  "districts": [
+    "jinshan"
+  ],
+  "published_at": "2026-10-29",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-12-31",
+  "summary": "金山区政府公布扩大社保补贴办理指南：对在制造业、生活服务业、现代服务业中小微企业就业的四类重点群体，符合要求可按个人养老、医保和失业保险实缴额25%计算补贴。",
+  "impact": "2026届毕业生、2024—2025届离校未就业毕业生、登记失业半年以上人员及防止返贫致贫对象等符合条件者。",
+  "action": "申领截至2026年12月31日；先核对本人及企业资格，再通过企业社保自助经办平台或当地就业促进中心办理。",
+  "source_url": "https://sh.bendibao.com/zffw/20261021/309942.shtm",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20261029/f8ce0cc87a0a4ac1a23df47d283792b6.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "四类补贴对象由官方列明",
+      "locator": "金山区政府补贴对象段",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261029/f8ce0cc87a0a4ac1a23df47d283792b6.html",
+      "status": "verified"
+    },
+    {
+      "claim": "补贴比例为养老、医保、失业保险个人实缴部分25%，累计不超过12个月",
+      "locator": "补贴标准与补贴期限段",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261029/f8ce0cc87a0a4ac1a23df47d283792b6.html",
+      "status": "verified"
+    },
+    {
+      "claim": "申请期限2026年12月31日",
+      "locator": "正文注意事项",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261029/f8ce0cc87a0a4ac1a23df47d283792b6.html",
+      "status": "verified"
+    }
+  ]
+}

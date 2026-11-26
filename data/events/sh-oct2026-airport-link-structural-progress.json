@@ -1,0 +1,39 @@
+{
+  "id": "sh-oct2026-airport-link-structural-progress",
+  "topic": "mobility",
+  "title": "市域机场联络线后通段实现结构贯通",
+  "districts": [
+    "pudong"
+  ],
+  "published_at": "2026-10-12",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市交通委10月12日通报机场联络线后通段结构贯通。全线规划68.6公里9站，2024年底已先期开通59公里7站，后通段涉及浦东3号航站楼站、上海东站。",
+  "impact": "关注虹浦两场联络、机场枢纽建设和上海东站周边交通的通勤者与企业。",
+  "action": "结构贯通不等于通车；继续监测设备联调、试运行、运营开通公告。",
+  "source_url": "https://www.shanghai.gov.cn/nw31406/20261013/cbaf7d81fa8e45258e4f2ebef3c77a80.html",
+  "official_url": "https://www.shanghai.gov.cn/nw31406/20261013/cbaf7d81fa8e45258e4f2ebef3c77a80.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "后通段于9月底关键结构贯通，10月12日交通委通报",
+      "locator": "市交通委消息首段",
+      "source_url": "https://www.shanghai.gov.cn/nw31406/20261013/cbaf7d81fa8e45258e4f2ebef3c77a80.html",
+      "status": "verified"
+    },
+    {
+      "claim": "全线68.6公里9站、先行开通59公里7站",
+      "locator": "线路说明",
+      "source_url": "https://www.shanghai.gov.cn/nw31406/20261013/cbaf7d81fa8e45258e4f2ebef3c77a80.html",
+      "status": "verified"
+    },
+    {
+      "claim": "后通段包含浦东3号航站楼站和上海东站站",
+      "locator": "后通段介绍",
+      "source_url": "https://www.shanghai.gov.cn/nw31406/20261013/cbaf7d81fa8e45258e4f2ebef3c77a80.html",
+      "status": "verified"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "baoshan-oct2026-car-purchase-subsidy",
+  "topic": "benefits",
+  "title": "宝山区汽车促消费补贴启动：最高1万元、总规模2900万元",
+  "districts": [
+    "baoshan"
+  ],
+  "published_at": "2026-10-10",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "宝山区10月10日公布汽车促消费补贴，10月12日起开放申报，符合要求的个人在区内参与活动的商家购车，按规定档位最高可申请1万元。",
+  "impact": "购车发票、销售企业、车辆目录、购车时段和登记条件均符合公告的消费者。",
+  "action": "不要把最高额当成人人可得；先核对发票税务区、补贴资金剩余额度和申报平台当前状态。",
+  "source_url": "https://m.sh.bendibao.com/zffw/309732.html?src=amap",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20261010/04f1cdb21dbd437f953118eec2b263bb.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "购车补贴最高10000元、资金规模2900万元、先到先得",
+      "locator": "宝山区政府公告导语",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261010/04f1cdb21dbd437f953118eec2b263bb.html",
+      "status": "verified"
+    },
+    {
+      "claim": "购买日期须在2026年10月1日至2027年1月3日之间",
+      "locator": "公告申请要求第3项",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261010/04f1cdb21dbd437f953118eec2b263bb.html",
+      "status": "verified"
+    },
+    {
+      "claim": "网上申报于10月12日10:00起开放",
+      "locator": "公告导语",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261010/04f1cdb21dbd437f953118eec2b263bb.html",
+      "status": "verified"
+    }
+  ]
+}

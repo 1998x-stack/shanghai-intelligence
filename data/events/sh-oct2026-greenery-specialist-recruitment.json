@@ -1,0 +1,37 @@
+{
+  "id": "sh-oct2026-greenery-specialist-recruitment",
+  "topic": "jobs",
+  "title": "市绿化市容局直属事业单位招聘3名中高级专业技术人员",
+  "districts": [],
+  "published_at": "2026-10-29",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-11-13",
+  "summary": "市人社局公布野生动植物和自然保护地研究中心招聘3人，要求博士研究生学历，10月发布、11月13日报名结束。",
+  "impact": "符合岗位专业与博士学历要求的专业技术人才；不是普通不限专业的事业单位招考。",
+  "action": "报名已于11月13日结束，可留意资格审核、面试或类似机构新一批招聘。",
+  "source_url": "https://sh.bendibao.com/job/20261030/310140.shtm",
+  "official_url": "https://rsj.sh.gov.cn/tzpgg_17408/20261029/t0035_1444435.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "招聘单位与招聘人数：研究中心3名",
+      "locator": "原公告第一节",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20261029/t0035_1444435.html",
+      "status": "verified"
+    },
+    {
+      "claim": "报名时间11月2日9:00至11月13日17:00",
+      "locator": "原公告第三节",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20261029/t0035_1444435.html",
+      "status": "verified"
+    },
+    {
+      "claim": "学历条件为博士研究生",
+      "locator": "原公告第二节",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20261029/t0035_1444435.html",
+      "status": "verified"
+    }
+  ]
+}

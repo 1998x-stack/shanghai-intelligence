@@ -1,0 +1,37 @@
+{
+  "id": "sh-oct2026-flexible-employment-maternity",
+  "topic": "benefits",
+  "title": "灵活就业生育津贴新规明确过渡期与2027年5月正式规则",
+  "districts": [],
+  "published_at": "2026-10-21",
+  "observed_at": "2026-11-26",
+  "effective_at": "2027-05-01",
+  "deadline": null,
+  "summary": "上海医保部门10月20日解读灵活就业人员生育津贴待遇衔接：2027年5月1日起需正常享受职工医保待遇且此前本市职工医保累计缴费满12个月。",
+  "impact": "以灵活就业身份参加上海职工医保的备孕、孕期和分娩人员。",
+  "action": "重要的是区分2027年4月30日前的过渡期与5月1日后的正式条件，避免把待缴期资格混淆。",
+  "source_url": "https://sh.bendibao.com/zffw/20261020/309927.shtm",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20261021/af420e3861644b6e8ac2e76de8716892.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "正式实施从2027年5月1日开始",
+      "locator": "官方政策解读第4问",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261021/af420e3861644b6e8ac2e76de8716892.html",
+      "status": "verified"
+    },
+    {
+      "claim": "正式实施需要正常享受职工医保待遇且累计缴费满12个月",
+      "locator": "官方政策解读第4问",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261021/af420e3861644b6e8ac2e76de8716892.html",
+      "status": "verified"
+    },
+    {
+      "claim": "2026年10月1日至2027年4月30日设置过渡期",
+      "locator": "官方政策解读第5问",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261021/af420e3861644b6e8ac2e76de8716892.html",
+      "status": "verified"
+    }
+  ]
+}

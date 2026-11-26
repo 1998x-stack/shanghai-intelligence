@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light"><meta name="description" content="上海2026年10月19项跨七大专题的城市政策与生活情报：招聘、住房、补贴、教育、经济、交通、活动，基于官方原文的可视化研究。">
+<title>上海2026年10月城市情报研究｜Shanghai Intelligence</title>
+<style>
+:root{--paper:#fffdf9;--ink:#203035;--muted:#53676d;--accent:#147f80;--border:#dce8e4;--surface:#f3f9f6;--orange:#c56a47;--dark:#172d3b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{background:var(--paper);color:var(--ink);margin:0;font:16px/1.88 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-underline-offset:.18em}a:hover{color:#b36a3f}a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.skip{position:absolute;left:1rem;top:-100px;background:white;padding:.5rem 1rem;z-index:100}.skip:focus{top:0}
+.layout{max-width:1280px;margin:auto;padding:3rem 2rem 7rem;display:grid;grid-template-columns:215px minmax(0,1fr);gap:clamp(2rem,4.5vw,5rem)}.toc{position:sticky;top:2rem;align-self:start;font-size:13px;max-height:calc(100vh - 4rem);overflow-y:auto}.toc strong{display:block;font-size:12px;letter-spacing:.1em;margin-bottom:1.2rem}.toc a{display:block;border-left:2px solid var(--border);padding:.5rem .8rem;text-decoration:none;color:var(--muted)}.toc a:hover{border-color:var(--accent);color:var(--accent)}
+article{max-width:860px;min-width:0}.eyebrow{text-transform:uppercase;letter-spacing:.17em;color:var(--accent);font-weight:750;font-size:11px}
+h1{font:600 clamp(2.55rem,5.8vw,4.8rem)/1.17 Georgia,"Songti SC","SimSun",serif;letter-spacing:-.055em;margin:.9rem 0 1.15rem}.dek{font-size:clamp(1.11rem,1.8vw,1.27rem);color:var(--muted);line-height:1.8;max-width:750px}.metadata{border-bottom:1px solid var(--border);padding:1rem 0 1.7rem;color:var(--muted);font-size:12px}.summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:1.6rem}.summary-grid div{border:1px solid var(--border);background:var(--surface);padding:16px;border-radius:12px}.summary-grid strong{font:650 32px/1.2 Georgia,serif;display:block}.summary-grid span{display:block;color:var(--muted);font-size:12px;margin-top:4px}
+section{margin-top:4.25rem;scroll-margin-top:2rem}section h2{font:600 clamp(1.65rem,2.8vw,2.25rem)/1.35 Georgia,"Songti SC","SimSun",serif;margin:0 0 1.3rem}section h3{font:600 1.32rem/1.5 system-ui;margin:2rem 0 .7rem}p{margin:1rem 0}figure{margin:1.75rem 0;padding:1.3rem;border-radius:14px;border:1px solid var(--border);background:#fff}figure svg{display:block;max-width:100%;width:100%;height:auto}figcaption{font-size:13px;color:var(--muted);line-height:1.75;border-top:1px solid var(--border);margin-top:1rem;padding-top:.8rem}.note{border-left:4px solid var(--accent);padding:1rem 1.1rem;background:var(--surface);border-radius:0 8px 8px 0}.note.warning{border-color:var(--orange);background:#fdf6ec}.insight{display:grid;grid-template-columns:42px 1fr;gap:17px;padding:20px 0;border-bottom:1px solid var(--border)}.insight .num{font:700 24px/1.2 Georgia;color:var(--accent)}.insight h3{margin:0 0 .4rem;font-size:18px}.insight p{margin:0;color:var(--muted)}
+.measures{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:1.8rem 0}.measure{border-radius:12px;background:var(--dark);color:#f7f9f7;padding:21px}.measure strong{font:650 33px/1.2 Georgia;display:block}.measure span{font-size:12px;color:#c6d6d7}.measure.tertiary{background:#e7f3ec;color:#1c5148}.measure.tertiary span{color:#59786e}
+.timeline{margin:1rem 0;padding-left:25px;border-left:2px solid #b5ceca}.timeline-item{position:relative;padding:0 0 1.6rem 20px}.timeline-item:before{content:"";position:absolute;left:-33px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--accent);border:2px solid var(--paper)}.timeline-item strong{font-size:13px;color:var(--accent)}.timeline-item p{margin:.1rem 0;font-size:15px}
+.control-row{display:flex;flex-wrap:wrap;gap:7px;margin:1.5rem 0}.control-row button{cursor:pointer;background:#fff;border:1px solid #d0e0dc;color:var(--ink);border-radius:20px;padding:7px 12px;font:inherit;font-size:12px}.control-row button[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}.count{font-size:12px;color:var(--muted)}
+.record-list{padding:0;margin:1.2rem 0;list-style:none;border-top:1px solid var(--border)}.record{display:grid;grid-template-columns:88px 98px 1fr;gap:10px;align-items:center;padding:12px 5px;border-bottom:1px solid var(--border);font-size:13px}.record a{line-height:1.55}.record-date,.record-topic{font-size:11px;color:var(--muted)}.record[hidden]{display:none}
+.sources{font-size:14px;padding-left:1.35rem}.sources li{margin-bottom:12px;overflow-wrap:anywhere}footer{margin-top:3.5rem;border-top:1px solid var(--border);padding:1.5rem 0;color:var(--muted);font-size:12px}
+@media(max-width:900px){.layout{display:block;padding:2rem 1.2rem 5rem}.toc{position:static;max-height:none;border-bottom:1px solid var(--border);padding-bottom:.7rem;margin-bottom:2rem}.toc a{display:inline-block;border-left:0;border-bottom:2px solid transparent;padding:.45rem .3rem}}
+@media(max-width:480px){body{font-size:15px}.layout{padding:1.4rem 1rem 4rem}.summary-grid{grid-template-columns:repeat(3,1fr)}.summary-grid div{padding:11px}.summary-grid strong{font-size:25px}.summary-grid span{font-size:10px}.measures{grid-template-columns:1fr}.measure{padding:15px}.measure strong{font-size:26px}.record{grid-template-columns:62px 65px 1fr;gap:5px;font-size:12px}.record-date,.record-topic{font-size:10px}figure{padding:.6rem;overflow-x:auto}figure svg{width:700px;max-width:none}section{margin-top:3.1rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+@media print{body{background:white;color:black;font-size:11pt}.layout{display:block;padding:0}.toc,.skip,.control-row{display:none!important}figure,.measure,.insight{break-inside:avoid}section{margin-top:1.7rem}.record{break-inside:avoid}}
+</style></head><body><a class="skip" href="#content">跳转到正文</a>
+<div class="layout"><nav class="toc" aria-label="研究目录"><strong>OCTOBER 2026 / SHANGHAI</strong>
+<a href="#overview">01 · 研究范围</a><a href="#signals">02 · 核心变化</a><a href="#cases">03 · 政策案例</a>
+<a href="#timing">04 · 时间与状态</a><a href="#records">05 · 19条事件索引</a>
+<a href="#sources">06 · 证据与局限</a><a href="/shanghai-intelligence/monthly/2026-10/">返回10月档案</a>
+</nav><main id="content"><article>
+<header><span class="eyebrow">城市情报 / 月度研究 / 2026年10月</span>
+<h1>2026年10月，<br>上海有哪些值得行动的变化？</h1>
+<p class="dek">从分散的本地生活消息出发，回到市、区政府与公共机构的一手公告：19条代表性事件如何影响招聘、住房、补贴、教育、产业、出行和城市生活。</p>
+<p class="metadata">采样区间 2026-10-01—2026-10-31 · 核对日期 2026-11-26 · 时区 Asia/Shanghai · 样本不是全站新闻统计</p>
+<div class="summary-grid"><div><strong>19</strong><span>经核验事件</span></div><div><strong>7</strong><span>情报专题</span></div><div><strong>2</strong><span>信息层级：线索+官方</span></div></div></header>
+<section id="overview"><h2>01 · 这份月报的研究边界</h2>
+<p>入选标准不是标题热度，而是能够在官方原文中核对关键事实、时间、适用群体或政策影响。本地宝负责发现线索，市政府、区政府及公告单位原文负责核实。最终选取19条具有代表性的记录，不能把它们解释为10月上海全部政策公告或本地宝全部文章。</p>
+<figure><svg viewBox="0 0 760 405" role="img" aria-labelledby="fig-topics-title fig-topics-desc" xmlns="http://www.w3.org/2000/svg">
+<title id="fig-topics-title">七类主题的研究样本数</title>
+<desc id="fig-topics-desc">招聘4条、住房2条、补贴4条、教育3条、经济3条、交通2条、活动1条；合计19条已核验选题，不代表全部文章数量。</desc>
+<rect width="760" height="405" rx="18" fill="#f8faf8"/>
+<text x="20" y="31" fill="#203035" font-size="18" font-weight="700">19条代表性情报 · 七大专题</text>
+<g><text x="20" y="64" fill="#3e5961" font-size="16">招聘与编制</text><rect x="170" y="46" width="464" height="24" rx="6" fill="#177e82"/><text x="647" y="64" fill="#203035" font-size="17" font-weight="700">4</text></g><g><text x="20" y="111" fill="#3e5961" font-size="16">住房与落户</text><rect x="170" y="93" width="232" height="24" rx="6" fill="#c97b49"/><text x="415" y="111" fill="#203035" font-size="17" font-weight="700">2</text></g><g><text x="20" y="158" fill="#3e5961" font-size="16">补贴与福利</text><rect x="170" y="140" width="464" height="24" rx="6" fill="#996eb8"/><text x="647" y="158" fill="#203035" font-size="17" font-weight="700">4</text></g><g><text x="20" y="205" fill="#3e5961" font-size="16">教育考试</text><rect x="170" y="187" width="348" height="24" rx="6" fill="#6b86bb"/><text x="531" y="205" fill="#203035" font-size="17" font-weight="700">3</text></g><g><text x="20" y="252" fill="#3e5961" font-size="16">城市经济</text><rect x="170" y="234" width="348" height="24" rx="6" fill="#b58a33"/><text x="531" y="252" fill="#203035" font-size="17" font-weight="700">3</text></g><g><text x="20" y="299" fill="#3e5961" font-size="16">交通与民生</text><rect x="170" y="281" width="232" height="24" rx="6" fill="#398d69"/><text x="415" y="299" fill="#203035" font-size="17" font-weight="700">2</text></g><g><text x="20" y="346" fill="#3e5961" font-size="16">活动与生活</text><rect x="170" y="328" width="116" height="24" rx="6" fill="#ba6478"/><text x="299" y="346" fill="#203035" font-size="17" font-weight="700">1</text></g>
+<text x="20" y="391" fill="#53676d" font-size="12">单位：条；研究选样数量，不是上海本地宝全站发文频率</text>
+</svg><figcaption>招聘、补贴的条目较多，是本次优先选择行动窗口较短的事项所致，不能据此推断它们在全市政策中占比最高。</figcaption></figure>
+</section>
+<section id="signals"><h2>02 · 从新闻到情报：四个必须分开的判断</h2>
+<div class="insight"><span class="num">01</span><div><h3>公开招录不等于现在还能报名</h3><p>事业单位第二批、浦东公办教师、上海公务员等招录信息高度集中在10月中下旬。大多数报名窗口已经关闭，当前更有价值的是追踪资格审核、考试与新批次，而不是继续传播报名广告。</p></div></div>
+<div class="insight"><span class="num">02</span><div><h3>资金机会要按地域、对象、期限三次过滤</h3><p>宝山购车补贴与金山、普陀社保补贴的受益对象完全不同。最高1万元购车补贴不是每位居民都能领取；社保补贴按符合条件者的个人实缴社保费计算，不适用于所有参保人员。</p></div></div>
+<div class="insight"><span class="num">03</span><div><h3>产业目标不是已经发生的投资结果</h3><p>智能制造行动方案中的500家先进级工厂、2000个以上AI制造场景和8000台人形机器人，属于2028年规划目标；而国庆消费762.4亿元属于一个指定假期时段的观测结果，二者不能放在同一个“已完成业绩”口径下。</p></div></div>
+<div class="insight"><span class="num">04</span><div><h3>工程进度与实际公共服务投入使用不是一回事</h3><p>机场联络线后通段“结构贯通”不代表开放载客；虹桥机场T1临时通道调整则是当时已经生效的出行路线变化。应先判断事件所处阶段，再给用户行动建议。</p></div></div>
+</section>
+<section id="cases"><h2>03 · 三组政策：如何真正提炼行动</h2>
+<h3>案例A｜扩大社保补贴：从“有补贴”到“谁能申领”</h3>
+<p>金山区10月29日发布的办理说明，明确对象限定为特定行业中小微企业吸纳的四类重点群体；补贴标准按个人当月基本养老、医疗和失业保险实缴部分的25%计算，申领期限截至2026年12月31日。</p>
+<figure><svg viewBox="0 0 760 235" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="social-title social-desc">
+<title id="social-title">社会保险补贴资格判断的四步流程</title><desc id="social-desc">依次核对人员身份、企业行业与规模、实际缴费及申请渠道，最终才可判断是否符合补贴要求。</desc>
+<rect width="760" height="235" fill="#f7faf7" rx="16"/>
+<g fill="#dff0eb" stroke="#91c8b9" stroke-width="2"><rect x="18" y="61" width="166" height="94" rx="12"/><rect x="207" y="61" width="166" height="94" rx="12"/><rect x="396" y="61" width="166" height="94" rx="12"/><rect x="585" y="61" width="156" height="94" rx="12"/></g>
+<g font-size="18" fill="#163d3b" font-weight="700" text-anchor="middle"><text x="101" y="104">身份条件</text><text x="290" y="104">企业条件</text><text x="479" y="104">实际缴费</text><text x="663" y="104">办理渠道</text></g>
+<g font-size="13" fill="#53676d" text-anchor="middle"><text x="101" y="130">四类重点群体</text><text x="290" y="130">行业/中小微</text><text x="479" y="130">三项社保费</text><text x="663" y="130">线上或线下</text></g>
+<path d="M185 108 H207 M374 108 H396 M563 108 H585" stroke="#147f80" stroke-width="3"/>
+<text x="25" y="205" font-size="14" fill="#53676d">全部条件均满足后，再核对申报是否开放、是否重复申请和材料要求</text>
+</svg><figcaption>此图为研究者按官方办理说明重绘的资格核对流程，不能替代主管机构的正式资格审查。</figcaption></figure>
+<div class="note"><strong>行动：</strong>到期点为12月31日。符合重点群体且在规定行业、企业就业的人员应尽快核对资格，并通过企业社保自助经办平台或就业促进中心了解申领方式。官方来源：<a href="https://www.shanghai.gov.cn/nw17239/20261029/f8ce0cc87a0a4ac1a23df47d283792b6.html" rel="noopener noreferrer" target="_blank">金山区政府通报 ↗</a>。</div>
+<h3>案例B｜宝山汽车补贴：金额与预算不是同一个概念</h3>
+<p>宝山区的政策设定专项资金总规模2900万元，单个符合条件的购车者最高补贴1万元。申报从10月12日启动，购车日期受10月1日至次年1月3日的区间约束。资金采用先到先得方式，因此名义有效期内也不代表仍有额度。</p>
+<div class="measures"><div class="measure"><strong>1万元</strong><span>单人最高金额，不是固定给付</span></div><div class="measure"><strong>2900万元</strong><span>补贴资金总盘子，非个人名额</span></div><div class="measure tertiary"><strong>先到先得</strong><span>实际余额需实时核对</span></div></div>
+<p>可核对的原文：<a href="https://www.shanghai.gov.cn/nw17239/20261010/04f1cdb21dbd437f953118eec2b263bb.html" rel="noopener noreferrer" target="_blank">宝山区政府公告 ↗</a>。</p>
+<h3>案例C｜工业AI：把规划目标翻译成机会与条件</h3>
+<p>上海市经济信息化委10月公开的新一代智能制造行动方案，列出到2028年的目标。对工业软件、智能传感、生产数据、机器人与系统集成服务商而言，值得跟踪后续的场景开放、技术目录、公开征集与项目采购，不能把规划数字直接写成项目落地数量。</p>
+<figure><svg viewBox="0 0 760 195" role="img" aria-labelledby="ai-title ai-desc" xmlns="http://www.w3.org/2000/svg">
+<title id="ai-title">上海2028年智能制造行动方案的四个规划指标</title><desc id="ai-desc">500家先进级智能工厂、2000个以上人工智能制造场景、300个以上高水平智能体、推动8000台人形机器人进入工厂；均为未来规划目标。</desc>
+<rect width="760" height="195" fill="#edf5f2" rx="16"/>
+<g fill="#183a48" font-family="Georgia,serif" font-weight="700" font-size="35" text-anchor="middle">
+<text x="95" y="95">500</text><text x="288" y="95">2000+</text><text x="475" y="95">300+</text><text x="665" y="95">8000</text></g>
+<g fill="#53676d" font-size="14" text-anchor="middle"><text x="95" y="129">先进级工厂</text><text x="288" y="129">AI制造场景</text><text x="475" y="129">工业智能体</text><text x="665" y="129">人形机器人</text></g>
+<text x="22" y="30" font-size="13" fill="#147f80" font-weight="700">TARGET 2028 · 规划目标，非已实现数</text>
+</svg><figcaption>数字来源于官方行动方案第一章总体目标，未与现有完成量相减，不构成项目进度预测。</figcaption></figure>
+<p>阅读：<a href="https://www.shanghai.gov.cn/gwk/search/content/b04b3f2de4c44304ae05dcf3d7e1f6f8" rel="noopener noreferrer" target="_blank">市经信委行动方案 ↗</a>。</p>
+</section>
+<section id="timing"><h2>04 · 发生、公布、生效、截止：四种不同日期</h2>
+<p>上海城市信息的常见误读在于：一篇10月发布的报道，并不意味着政策就在10月制定或生效。以下时间线对比了原始文件、公告、实施和申报节点。</p>
+<div class="timeline">
+<div class="timeline-item"><strong>2026-07-23 · 城市更新计划印发</strong><p>政府办公厅文件在7月23日形成，但公开发布日期是10月21日。研究中必须保留双时间戳。</p></div>
+<div class="timeline-item"><strong>2026-10-10—12 · 宝山购车补贴公布并开放申请</strong><p>公告与申报仅相隔数日，资金还有“先到先得”约束。</p></div>
+<div class="timeline-item"><strong>2026-10-19—23 · 多项招聘的网申短窗口</strong><p>对于个人来说，超过期限后的“招聘资讯”已经变为考试/资格审查追踪资料。</p></div>
+<div class="timeline-item"><strong>2026-10-27 · 新一代智能制造方案公开</strong><p>文件目标跨度至2028年，与当月已完成项目无直接对应关系。</p></div>
+<div class="timeline-item"><strong>2026-12-31 · 多项社保补贴申请期限</strong><p>由10月发现、却在11—12月仍然存在行动窗口，月度信息不能只按发布月一次性遗忘。</p></div>
+</div>
+<div class="note warning"><strong>版本纠错：</strong>上海本地宝10月介绍的一次性扩岗补助是既有政策的再传播，不能仅凭文章日期把它称作“10月新出台政策”。城市更新三年行动计划同样要区分7月印发与10月公开的日期。<a href="https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html" rel="noopener noreferrer" target="_blank">上海市政府城市更新文件 ↗</a>。</div>
+</section>
+<section id="records"><h2>05 · 19条核验事件（可筛选）</h2>
+<p>点击主题筛选。本目录中的每条事件可打开独立页面，查询官方原文、影响对象和行动步骤。</p>
+<div class="control-row" role="group" aria-label="专题筛选">
+<button type="button" data-filter="all" aria-pressed="true">全部 19</button><button type="button" data-filter="jobs" aria-pressed="false">招聘与编制</button><button type="button" data-filter="housing" aria-pressed="false">住房与落户</button><button type="button" data-filter="benefits" aria-pressed="false">补贴与福利</button><button type="button" data-filter="education" aria-pressed="false">教育考试</button><button type="button" data-filter="economy" aria-pressed="false">城市经济</button><button type="button" data-filter="mobility" aria-pressed="false">交通与民生</button><button type="button" data-filter="lifestyle" aria-pressed="false">活动与生活</button></div>
+<p class="count" id="filter-count" aria-live="polite">共显示19条</p>
+<ol class="record-list" id="record-list"><li class="record" data-topic="jobs"><span class="record-date">10月15日</span><span class="record-topic">招聘与编制</span><a href="/shanghai-intelligence/events/sh-oct2026-public-institution-recruitment/">事业单位第二批：已有笔试成绩者才能报考 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="jobs"><span class="record-date">10月16日</span><span class="record-topic">招聘与编制</span><a href="/shanghai-intelligence/events/pudong-oct2026-teacher-recruitment-2027/">浦东公办学校2027年教师招聘第一批 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="jobs"><span class="record-date">10月29日</span><span class="record-topic">招聘与编制</span><a href="/shanghai-intelligence/events/sh-oct2026-greenery-specialist-recruitment/">绿化市容系统招聘3名中高级技术人才 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="jobs"><span class="record-date">10月31日</span><span class="record-topic">招聘与编制</span><a href="/shanghai-intelligence/events/sh-oct2026-civil-service-2027/">2027年度上海公务员考录公告 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="housing"><span class="record-date">10月13日</span><span class="record-topic">住房与落户</span><a href="/shanghai-intelligence/events/sh-oct2026-rental-housing-public-supply/">市筹公租房供应与轮候信息（非实时库存） <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="housing"><span class="record-date">10月21日</span><span class="record-topic">住房与落户</span><a href="/shanghai-intelligence/events/sh-oct2026-urban-renewal-2026-2028/">城市更新三年行动计划正式公开 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="benefits"><span class="record-date">10月10日</span><span class="record-topic">补贴与福利</span><a href="/shanghai-intelligence/events/baoshan-oct2026-car-purchase-subsidy/">宝山区购车补贴最高1万元 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="benefits"><span class="record-date">10月21日</span><span class="record-topic">补贴与福利</span><a href="/shanghai-intelligence/events/sh-oct2026-flexible-employment-maternity/">灵活就业人员生育津贴过渡规则 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="benefits"><span class="record-date">10月27日</span><span class="record-topic">补贴与福利</span><a href="/shanghai-intelligence/events/putuo-oct2026-expanded-social-insurance-guide/">普陀区扩大社保补贴办理渠道 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="benefits"><span class="record-date">10月29日</span><span class="record-topic">补贴与福利</span><a href="/shanghai-intelligence/events/jinshan-oct2026-expanded-social-insurance/">金山区扩大社保补贴申请指南 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="education"><span class="record-date">10月10日</span><span class="record-topic">教育考试</span><a href="/shanghai-intelligence/events/sh-oct2026-adult-exam-ticket/">成人高考准考证下载时间 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="education"><span class="record-date">10月21日</span><span class="record-topic">教育考试</span><a href="/shanghai-intelligence/events/sh-oct2026-vocational-academic-exam/">中职学业水平考试报名与考试 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="education"><span class="record-date">10月26日</span><span class="record-topic">教育考试</span><a href="/shanghai-intelligence/events/sh-oct2026-teacher-cert-interview/">中小学教师资格面试公告 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="economy"><span class="record-date">10月08日</span><span class="record-topic">城市经济</span><a href="/shanghai-intelligence/events/sh-oct2026-national-day-consumption-data/">国庆假期消费监测：762.4亿元 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="economy"><span class="record-date">10月17日</span><span class="record-topic">城市经济</span><a href="/shanghai-intelligence/events/sh-oct2026-ciie-exhibitor-brief/">第九届进博会参展规模前瞻 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="economy"><span class="record-date">10月27日</span><span class="record-topic">城市经济</span><a href="/shanghai-intelligence/events/sh-oct2026-ai-manufacturing-plan/">新一代智能制造行动方案 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="mobility"><span class="record-date">10月06日</span><span class="record-topic">交通与民生</span><a href="/shanghai-intelligence/events/sh-oct2026-hongqiao-airport-t1-walkway/">虹桥机场T1临时交通组织调整 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="mobility"><span class="record-date">10月12日</span><span class="record-topic">交通与民生</span><a href="/shanghai-intelligence/events/sh-oct2026-airport-link-structural-progress/">机场联络线后通段结构贯通 <span aria-hidden="true">↗</span></a></li><li class="record" data-topic="lifestyle"><span class="record-date">10月26日</span><span class="record-topic">活动与生活</span><a href="/shanghai-intelligence/events/sh-oct2026-chrysanthemum-citywide-festival/">上海菊花展示活动（1+6会场） <span aria-hidden="true">↗</span></a></li></ol>
+</section>
+<section id="sources"><h2>06 · 证据链与研究局限</h2>
+<p>信息发现以本地宝为主要线索入口，同时检索上海市及区政府、考试院、人社部门和行业主管机构。数字、时间、资格和实施状态以官方文件为准；本报告对官方文件做独立归纳，不大量转载原文。</p>
+<ol class="sources">
+<li><a href="https://sh.bendibao.com/zffw/butie/list2.htm" rel="noopener noreferrer" target="_blank">上海本地宝补贴栏目 ↗</a>：本地宝补贴栏目（线索，不作为法律依据）。</li>
+<li><a href="https://www.shanghai.gov.cn/nw44142/20261021/4f07ab8fed2e4eb4b457b3eb519c3af1.html" rel="noopener noreferrer" target="_blank">上海市政府城市更新文件 ↗</a>：上海城市更新三年行动计划（印发日/公开日）。</li>
+<li><a href="https://www.shanghai.gov.cn/nw17239/20261029/f8ce0cc87a0a4ac1a23df47d283792b6.html" rel="noopener noreferrer" target="_blank">金山区政府通报 ↗</a>：金山区扩大社会保险补贴办理说明。</li>
+<li><a href="https://www.shanghai.gov.cn/nw17239/20261010/04f1cdb21dbd437f953118eec2b263bb.html" rel="noopener noreferrer" target="_blank">宝山区政府公告 ↗</a>：宝山区汽车促消费补贴公告。</li>
+<li><a href="https://www.shanghai.gov.cn/gwk/search/content/b04b3f2de4c44304ae05dcf3d7e1f6f8" rel="noopener noreferrer" target="_blank">市经信委行动方案 ↗</a>：上海新一代智能制造行动方案。</li>
+<li><a href="https://www.shmeea.edu.cn/page/05500/20261026/20640.html" rel="noopener noreferrer" target="_blank">市教育考试院公告 ↗</a>：上海中小学教师资格面试公告。</li>
+<li><a href="https://www.shanghai.gov.cn/nw31406/20261008/42d702238eae47269468849d17a93448.html" rel="noopener noreferrer" target="_blank">市商务委消费数据 ↗</a>：国庆消费监测口径及观测区间。</li>
+</ol>
+<p><strong>研究限制：</strong>19条是经过筛选的可复核事件，不是随机抽样、全站清单或上海全部政策的统计。标题、摘要及政策适用范围可能更新；个人办理仍应重新确认官方系统的最新状态。相关事件的完整证据字段存放在本仓库 <code>data/events/</code>。</p>
+</section>
+<footer>Shanghai Intelligence · 2026年10月专题研究 · 报告整理日期2026-11-26 · 独立公开信息研究，非官方政府网站。<br>
+<a href="/shanghai-intelligence/monthly/2026-10/">返回月度档案</a> · <a href="/shanghai-intelligence/reports/">浏览其他深度研究</a></footer>
+</article></main></div>
+<script>(function(){"use strict";var buttons=[...document.querySelectorAll("[data-filter]")],rows=[...document.querySelectorAll(".record")],count=document.querySelector("#filter-count");
+function select(topic){var shown=0;rows.forEach(function(row){var keep=topic==="all"||row.dataset.topic===topic;row.hidden=!keep;if(keep)shown++;});buttons.forEach(function(button){button.setAttribute("aria-pressed",String(button.dataset.filter===topic));});count.textContent="共显示"+shown+"条";}
+buttons.forEach(function(button){button.addEventListener("click",function(){select(button.dataset.filter);});});select("all");})();</script>
+</body></html>

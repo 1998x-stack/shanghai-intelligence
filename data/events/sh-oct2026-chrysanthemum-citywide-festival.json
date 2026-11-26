@@ -1,0 +1,39 @@
+{
+  "id": "sh-oct2026-chrysanthemum-citywide-festival",
+  "topic": "lifestyle",
+  "title": "2026上海菊花展示活动：1主会场+6分会场",
+  "districts": [
+    "yangpu",
+    "huangpu",
+    "jingan",
+    "putuo",
+    "minhang",
+    "songjiang",
+    "qingpu"
+  ],
+  "published_at": "2026-10-26",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-11-29",
+  "summary": "杨浦区政府公布上海菊花展示活动攻略：共青森林公园主会场展期10月24日至11月29日，另有黄浦、静安、普陀、闵行、松江、青浦6个分会场。",
+  "impact": "希望在上海参与市民公园展览和秋季休闲活动的游客家庭。",
+  "action": "截至11月26日主会场仍在展期，去前核查各分会场具体开放日期、门票和天气变化。",
+  "source_url": "https://sh.bendibao.com/xiuxian/20261022/309987.shtm",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20261026/7626eef747da4898bca00957e3f30b8e.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "1个主会场与6大特色分会场",
+      "locator": "区政府攻略开头",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261026/7626eef747da4898bca00957e3f30b8e.html",
+      "status": "verified"
+    },
+    {
+      "claim": "主会场展期2026年10月24日至11月29日",
+      "locator": "主会场时间段",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261026/7626eef747da4898bca00957e3f30b8e.html",
+      "status": "verified"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "putuo-oct2026-expanded-social-insurance-guide",
+  "topic": "benefits",
+  "title": "普陀区公布社保补贴双渠道办理指南",
+  "districts": [
+    "putuo"
+  ],
+  "published_at": "2026-10-27",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-12-31",
+  "summary": "普陀区就业部门说明符合条件人员既可由企业在线申报，也可凭证件等材料现场办理；若企业已申请，无需重复提交。",
+  "impact": "在普陀区重点行业企业就业且符合扩大社保补贴政策的重点群体。",
+  "action": "申领截至2026年底；企业未线上申报时可咨询普陀区就业促进中心，避免重复申领。",
+  "source_url": "https://sh.bendibao.com/zffw/20261021/309943.shtm",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20261027/a5b16e57db2a44c693ce59530df53d1e.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "企业线上与个人线下两种申请方式",
+      "locator": "正文方式一、方式二",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261027/a5b16e57db2a44c693ce59530df53d1e.html",
+      "status": "verified"
+    },
+    {
+      "claim": "普陀区就业促进中心办理地址宁夏路627号",
+      "locator": "正文建议办理地址",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261027/a5b16e57db2a44c693ce59530df53d1e.html",
+      "status": "verified"
+    },
+    {
+      "claim": "已由企业申报的人员无需重复现场办理",
+      "locator": "方式一说明",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261027/a5b16e57db2a44c693ce59530df53d1e.html",
+      "status": "verified"
+    }
+  ]
+}

@@ -5,5 +5,13 @@
     "summary": "以新旧起步里程与分段加价为线索，交互比较不同里程的基准票价，逐条追溯发改委正式文件。",
     "topic": "mobility",
     "published_at": "2026-11-26"
+  },
+  {
+    "slug": "october-2026-shanghai-intelligence",
+    "title": "2026年10月，上海有哪些值得行动的变化？",
+    "summary": "跨七大专题复盘19条经过一手资料交叉核验的上海城市情报，提供事件分布、政策行动条件、版本时间线及可筛选索引。",
+    "topic": "economy",
+    "published_at": "2026-11-26",
+    "research_month": "2026-10"
   }
 ]

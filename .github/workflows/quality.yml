@@ -44,13 +44,17 @@ jobs:
           python -m pip install beautifulsoup4 playwright
           python -m playwright install --with-deps chromium
       - name: Validate Olah article semantics
-        run: python .pi/skills/olah-style-paper-posts/scripts/validate.py content/reports/metro-fare-2026/index.html
+        run: |
+          python .pi/skills/olah-style-paper-posts/scripts/validate.py content/reports/metro-fare-2026/index.html
+          python .pi/skills/olah-style-paper-posts/scripts/validate.py content/reports/october-2026-shanghai-intelligence/index.html
       - name: Run Chromium viewport and interaction checks
-        run: python .pi/skills/olah-style-paper-posts/scripts/browser_check.py content/reports/metro-fare-2026/index.html --output qa-reports/metro-fare-2026
+        run: |
+          python .pi/skills/olah-style-paper-posts/scripts/browser_check.py content/reports/metro-fare-2026/index.html --output qa-reports/metro-fare-2026
+          python .pi/skills/olah-style-paper-posts/scripts/browser_check.py content/reports/october-2026-shanghai-intelligence/index.html --output qa-reports/october-2026-shanghai-intelligence
       - name: Save browser QA evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: metro-fare-browser-qa
-          path: qa-reports/metro-fare-2026
+          name: shanghai-monthly-browser-qa
+          path: qa-reports/
           if-no-files-found: ignore

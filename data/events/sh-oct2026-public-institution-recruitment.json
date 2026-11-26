@@ -1,0 +1,37 @@
+{
+  "id": "sh-oct2026-public-institution-recruitment",
+  "topic": "jobs",
+  "title": "上海2026年部分事业单位第二批招聘：限已有笔试成绩者报考",
+  "districts": [],
+  "published_at": "2026-10-15",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-10-23",
+  "summary": "市人社局发布第二批招聘政策问答，报名时间10月19—23日，使用随申办市民云APP；并非面向所有首次考编人员重新开放笔试。",
+  "impact": "已参加2026年3月28日上海事业单位笔试且持有效成绩、符合岗位条件的报考人员。",
+  "action": "本批网报已于10月23日结束；查官方公告和具体单位后续面试、资格复核通知，别误认仍可报名。",
+  "source_url": "https://www.shanghai.gov.cn/nw17239/20261019/c4bba3b829fd4e9ca66df824b92e4db7.html",
+  "official_url": "https://rsj.sh.gov.cn/tzcjd_17352_17352/20261015/t0035_1444212.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "网络报名为10月19日10:00至10月23日16:00，使用随申办市民云APP",
+      "locator": "政策问答第一问",
+      "source_url": "https://rsj.sh.gov.cn/tzcjd_17352_17352/20261015/t0035_1444212.html",
+      "status": "verified"
+    },
+    {
+      "claim": "外省市户籍非应届毕业人员须有有效居住证满一年",
+      "locator": "政策问答第二问",
+      "source_url": "https://rsj.sh.gov.cn/tzcjd_17352_17352/20261015/t0035_1444212.html",
+      "status": "verified"
+    },
+    {
+      "claim": "普陀区提供19个招聘岗位名额（具体仍看简章）",
+      "locator": "普陀区政府招聘通知",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261019/c4bba3b829fd4e9ca66df824b92e4db7.html",
+      "status": "verified"
+    }
+  ]
+}
