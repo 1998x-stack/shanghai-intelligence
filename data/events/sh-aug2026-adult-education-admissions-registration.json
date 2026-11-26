@@ -1,0 +1,39 @@
+{
+  "id": "sh-aug2026-adult-education-admissions-registration",
+  "title": "上海成人高校招生报名8月公告：9月2日至7日网报",
+  "topic": "education",
+  "districts": [],
+  "published_at": "2026-08-27",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-09-07",
+  "summary": "市教育考试院8月27日公告成人高校招生考试报考三阶段流程，网上信息填报9月2日9时至7日12时，资格审核与缴费另设时段。",
+  "impact": "符合成人高校报考资格、需要提升学历的在职人员或社会人员。",
+  "action": "9月报考已结束；注意报考层次、前置学历、外地户籍在沪工作要求和缴费期限。",
+  "source_url": "https://www.shmeea.edu.cn/page/08000/20260827/20561.html",
+  "official_url": "https://www.shmeea.edu.cn/page/08000/20260827/20561.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "8月27日公布成人高校报考安排",
+      "source_url": "https://www.shmeea.edu.cn/page/08000/20260827/20561.html",
+      "locator": "公告标题与发布日期",
+      "status": "verified"
+    },
+    {
+      "claim": "网上报名9月2日9时至9月7日12时",
+      "source_url": "https://www.shmeea.edu.cn/page/08000/20260827/20561.html",
+      "locator": "公告第一部分",
+      "status": "verified"
+    },
+    {
+      "claim": "通过审核后网上缴费时间9月11日至12日",
+      "source_url": "https://www.shmeea.edu.cn/page/08000/20260827/20561.html",
+      "locator": "公告第三部分",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

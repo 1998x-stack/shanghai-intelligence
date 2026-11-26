@@ -1,0 +1,39 @@
+{
+  "id": "sh-aug2026-digital-shanghai-15th-plan",
+  "title": "数字上海“十五五”规划8月公开：公共数据和数字底座指标",
+  "topic": "economy",
+  "districts": [],
+  "published_at": "2026-08-19",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市政府办公厅8月19日公布规划，提出到2030年公共数据开放规模达到100亿条、数字经济核心产业增加值占GDP比重超过20%等指标。",
+  "impact": "城市数字化、政务AI、数据基础设施与公共服务软件相关从业者。",
+  "action": "关注公开招标、数据开放目录和智能政务落地项目，不能直接将规划目标视为已经完成。",
+  "source_url": "https://www.shanghai.gov.cn/nw12344/20260819/6cf80b0875f1465c94886f0b1a4a4f35.html",
+  "official_url": "https://www.shanghai.gov.cn/nw12344/20260819/6cf80b0875f1465c94886f0b1a4a4f35.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "文件印发7月28日、公开8月19日",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260819/6cf80b0875f1465c94886f0b1a4a4f35.html",
+      "locator": "公文页眉",
+      "status": "verified"
+    },
+    {
+      "claim": "2030年公共数据开放规模目标100亿条",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260819/6cf80b0875f1465c94886f0b1a4a4f35.html",
+      "locator": "规划指标表第3项",
+      "status": "verified"
+    },
+    {
+      "claim": "数字经济核心产业增加值占GDP目标超过20%",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260819/6cf80b0875f1465c94886f0b1a4a4f35.html",
+      "locator": "规划指标表第1项",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "planning",
+  "source_level": "official"
+}

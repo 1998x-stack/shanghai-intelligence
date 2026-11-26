@@ -1,0 +1,39 @@
+{
+  "id": "sh-aug2026-strategic-emerging-15th-plan",
+  "title": "战略性新兴产业“十五五”规划：2030年增加值2.1万亿元目标",
+  "topic": "economy",
+  "districts": [],
+  "published_at": "2026-08-26",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市政府办公厅8月26日公开规划，提出到2030年战略性新兴产业增加值达到2.1万亿元，工业战略性新兴产业产值占规模以上工业产值比重超过50%。",
+  "impact": "集成电路、生物医药、人工智能、先进材料和未来产业投资研究者。",
+  "action": "这些是五年预期目标；可追踪具体产业园区、技术平台和公开投资，但不代表企业当前收入。",
+  "source_url": "https://www.shanghai.gov.cn/nw12344/20260826/0f32f0c1379a4e949a1ca414b0be25b5.html",
+  "official_url": "https://www.shanghai.gov.cn/nw12344/20260826/0f32f0c1379a4e949a1ca414b0be25b5.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "文件印发7月29日、8月26日公开",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260826/0f32f0c1379a4e949a1ca414b0be25b5.html",
+      "locator": "公文页眉",
+      "status": "verified"
+    },
+    {
+      "claim": "2030年战略性新兴产业增加值2.1万亿元",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260826/0f32f0c1379a4e949a1ca414b0be25b5.html",
+      "locator": "规划总体目标及专栏",
+      "status": "verified"
+    },
+    {
+      "claim": "工业战略性新兴产业产值占规上工业产值比例超过50%",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260826/0f32f0c1379a4e949a1ca414b0be25b5.html",
+      "locator": "规划主要指标表",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "planning",
+  "source_level": "official"
+}

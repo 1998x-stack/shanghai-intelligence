@@ -1,0 +1,36 @@
+{
+  "id": "sh-aug2026-qingpu-summer-cultural-vouchers",
+  "title": "青浦文旅消费券在8月城市消费活动中公布",
+  "topic": "benefits",
+  "districts": [
+    "qingpu"
+  ],
+  "published_at": "2026-08-26",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市政府8月26日汇总城市七夕文旅消费，介绍青浦区文旅局与旅游平台联合推出的酒店、景区等消费券，指定品类最高立减240元。",
+  "impact": "在青浦符合特定平台券种规则的文旅消费者。",
+  "action": "该券是季节性活动，不可据历史媒体介绍认定仍能领取；应回到区文旅局及活动平台检查是否仍有券额。",
+  "source_url": "https://www.shanghai.gov.cn/nw17239/20260826/ded168a56d2f4a2c8ac7ac9b8d89b51e.html",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20260826/ded168a56d2f4a2c8ac7ac9b8d89b51e.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "青浦区文旅局联合携程推出覆盖酒店和景区的消费券",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260826/ded168a56d2f4a2c8ac7ac9b8d89b51e.html",
+      "locator": "报道青浦文旅段落",
+      "status": "verified"
+    },
+    {
+      "claim": "报道列示最高立减240元",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260826/ded168a56d2f4a2c8ac7ac9b8d89b51e.html",
+      "locator": "报道青浦文旅段落",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "seasonal",
+  "source_level": "government_republished_event",
+  "context": "市政府资讯汇总及活动主办方介绍；仅视作8月活动信息，券额以指定平台实际展示为准。"
+}

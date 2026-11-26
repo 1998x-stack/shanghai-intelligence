@@ -1,0 +1,39 @@
+{
+  "id": "sh-aug2026-eight-housing-measures",
+  "title": "上海住房“沪八条”8月公布：公积金、贷款和购房置换协同调整",
+  "topic": "housing",
+  "districts": [],
+  "published_at": "2026-08-20",
+  "observed_at": "2026-11-26",
+  "effective_at": "2026-08-21",
+  "deadline": null,
+  "summary": "六部门出台8项优化措施，8月21日实施；包括公积金支付现房首付、外环外二套商业贷款最低首付不低于15%、房票和二手房收储等。",
+  "impact": "在上海购买自住房、改善居住条件或涉及征收安置的家庭。",
+  "action": "必须按区域、贷款条件和项目性质核对是否适用；特别要把15%视为符合条件的最低比例，而非人人可贷。",
+  "source_url": "https://sh.bendibao.com/fangchan/2026820/308587.shtm",
+  "official_url": "https://zjw.sh.gov.cn/jsgl/20260820/82df5e3bf87845ed903492dc5d495574.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "公积金支付购房首付范围扩大至本市新建现房",
+      "source_url": "https://zjw.sh.gov.cn/jsgl/20260820/82df5e3bf87845ed903492dc5d495574.html",
+      "locator": "通知第一条",
+      "status": "verified"
+    },
+    {
+      "claim": "外环外二套住房商业贷款最低首付比例为不低于15%",
+      "source_url": "https://zjw.sh.gov.cn/jsgl/20260820/82df5e3bf87845ed903492dc5d495574.html",
+      "locator": "通知第四条",
+      "status": "verified"
+    },
+    {
+      "claim": "通知自2026年8月21日起施行",
+      "source_url": "https://zjw.sh.gov.cn/jsgl/20260820/82df5e3bf87845ed903492dc5d495574.html",
+      "locator": "通知末段",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "effective",
+  "source_level": "official"
+}

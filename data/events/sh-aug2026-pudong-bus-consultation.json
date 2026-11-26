@@ -1,0 +1,41 @@
+{
+  "id": "sh-aug2026-pudong-bus-consultation",
+  "title": "浦东新区第四批公交线路调整计划8月公示",
+  "topic": "mobility",
+  "districts": [
+    "pudong"
+  ],
+  "published_at": "2026-08-15",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-08-22",
+  "summary": "浦东新区建交委8月公开第四批公交线路拟调整计划，包括1117路走向调整和拟新辟接驳环线，公众可在8月13日至22日反馈。",
+  "impact": "浦东康桥、周浦周边使用公交接驳地铁18号线、16号线的居民。",
+  "action": "这是公示方案而非已运营新线路；是否最终调整、何时开通，须查浦东交通主管部门运营公告。",
+  "source_url": "https://www.shanghai.gov.cn/nw17239/20260815/61ca0d6215334bd291db20e6e7654e1f.html",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20260815/61ca0d6215334bd291db20e6e7654e1f.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "公示的是2026年浦东第四批公交线路拟调整计划",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260815/61ca0d6215334bd291db20e6e7654e1f.html",
+      "locator": "官方公示导语",
+      "status": "verified"
+    },
+    {
+      "claim": "公示期为8月13日至22日",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260815/61ca0d6215334bd291db20e6e7654e1f.html",
+      "locator": "公示期限",
+      "status": "verified"
+    },
+    {
+      "claim": "拟新辟公交环线以接驳地铁18号线等为目的",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260815/61ca0d6215334bd291db20e6e7654e1f.html",
+      "locator": "公交调整方案条目",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "consultation",
+  "source_level": "official"
+}

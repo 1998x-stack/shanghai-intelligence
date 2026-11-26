@@ -1,0 +1,39 @@
+{
+  "id": "sh-aug2026-city-renewal-housing-15th-plan",
+  "title": "城市更新与住房发展“十五五”规划8月公开",
+  "topic": "housing",
+  "districts": [],
+  "published_at": "2026-08-20",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市政府办公厅7月28日印发、8月20日公开规划，提出到2030年新增供应保租房25—27万套（间）、旧住房成套改造120万平方米等预期性目标。",
+  "impact": "老旧小区居民、保租房申请人和城市更新相关产业单位。",
+  "action": "这是规划指标不是可即时申请房源；按区跟踪项目清单与财政安排，不把2027年实际进度与2030目标混为一谈。",
+  "source_url": "https://www.shanghai.gov.cn/nw12344/20260820/f584d873f87045148c7eccce1ae637b3.html",
+  "official_url": "https://www.shanghai.gov.cn/nw12344/20260820/f584d873f87045148c7eccce1ae637b3.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "文件印发日期7月28日、公开日期8月20日",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260820/f584d873f87045148c7eccce1ae637b3.html",
+      "locator": "公文页眉",
+      "status": "verified"
+    },
+    {
+      "claim": "保租房新增供应目标为25—27万套（间）",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260820/f584d873f87045148c7eccce1ae637b3.html",
+      "locator": "十五五主要指标专栏第6项",
+      "status": "verified"
+    },
+    {
+      "claim": "旧住房成套改造规划目标120万平方米",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260820/f584d873f87045148c7eccce1ae637b3.html",
+      "locator": "十五五主要指标专栏第2项",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "planning",
+  "source_level": "official"
+}

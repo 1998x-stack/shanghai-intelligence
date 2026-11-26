@@ -1,0 +1,39 @@
+{
+  "id": "sh-aug2026-urban-construction-college-jobs",
+  "title": "上海城建职业学院第二批公开招聘16名人员",
+  "topic": "jobs",
+  "districts": [],
+  "published_at": "2026-08-13",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-09-30",
+  "summary": "校方第二批招聘包括专技岗8人、其他专技5人、管理岗3人，报名截至9月30日并按岗位分别组织测试。",
+  "impact": "关注上海高校教师、教辅与管理岗且符合学历及岗位资格条件的人。",
+  "action": "申请窗口已过；从岗位性质和考试环节区分教师、管理、辅导员，不应简单按“大学招聘”理解。",
+  "source_url": "https://sh.bendibao.com/job/2026813/308402.shtm",
+  "official_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260813/t0035_1443025.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "8名专技岗、5名其他专技岗、3名管理岗",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260813/t0035_1443025.html",
+      "locator": "招聘公告第二节",
+      "status": "verified"
+    },
+    {
+      "claim": "报名有效期至2026年9月30日",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260813/t0035_1443025.html",
+      "locator": "招聘公告第三节1",
+      "status": "verified"
+    },
+    {
+      "claim": "学校二级学院组织教师岗位考核，部分职能岗位有笔试和面试",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260813/t0035_1443025.html",
+      "locator": "第三节4",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

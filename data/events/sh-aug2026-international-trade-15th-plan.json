@@ -1,0 +1,33 @@
+{
+  "id": "sh-aug2026-international-trade-15th-plan",
+  "title": "上海国际贸易中心“十五五”规划8月公开",
+  "topic": "economy",
+  "districts": [],
+  "published_at": "2026-08-25",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市政府8月25日公布国际贸易中心建设规划，围绕货物、服务和数字贸易协同发展以及内外贸一体化提升城市贸易能级。",
+  "impact": "外贸企业、跨境物流、数字贸易与国际采购服务机构。",
+  "action": "关注贸易便利化、跨境数据和采购机制的正式细则，不把规划表述等同现有企业融资或补贴资格。",
+  "source_url": "https://www.shanghai.gov.cn/nw12344/20260825/7909324866ab4a89b6a56e7197762bce.html",
+  "official_url": "https://www.shanghai.gov.cn/nw12344/20260825/7909324866ab4a89b6a56e7197762bce.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "上海市政府公开国际贸易中心建设十五五规划",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260825/7909324866ab4a89b6a56e7197762bce.html",
+      "locator": "公文标题和发布日",
+      "status": "verified"
+    },
+    {
+      "claim": "重点推动货物贸易、服务贸易和数字贸易协同发展",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260825/7909324866ab4a89b6a56e7197762bce.html",
+      "locator": "规划总体要求",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "planning",
+  "source_level": "official"
+}

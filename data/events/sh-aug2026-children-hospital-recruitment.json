@@ -1,0 +1,33 @@
+{
+  "id": "sh-aug2026-children-hospital-recruitment",
+  "title": "上海市儿童医院公开招聘32名工作人员",
+  "topic": "jobs",
+  "districts": [],
+  "published_at": "2026-08-19",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-08-31",
+  "summary": "市人社局发布招聘：医师15、护理10、医技3、科研2、行政2，邮件报名截止8月31日。",
+  "impact": "具备医疗、护理、科研或医院行政相关条件的求职者，各岗位资格要求不同。",
+  "action": "本轮已经截止；若关注医院行政编制，应核对聘用方式与专业要求，不能把所有岗位视作综合行政职位。",
+  "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260819/t0035_1443195.html",
+  "official_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260819/t0035_1443195.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "医师15名、护理10名、医技3名、科研2名、行政2名",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260819/t0035_1443195.html",
+      "locator": "公告第一节招聘岗位",
+      "status": "verified"
+    },
+    {
+      "claim": "报名截止时间为2026年8月31日",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260819/t0035_1443195.html",
+      "locator": "公告第三节招聘办法",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

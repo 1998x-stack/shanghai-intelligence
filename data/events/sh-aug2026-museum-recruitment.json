@@ -1,0 +1,33 @@
+{
+  "id": "sh-aug2026-museum-recruitment",
+  "title": "上海博物馆8月公开招聘4名事业单位工作人员",
+  "topic": "jobs",
+  "districts": [],
+  "published_at": "2026-08-25",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "上海市人社局发布上海博物馆4个岗位招聘，涉及人事、教育服务、设备维护和宣传创建；必须已有2026年3月28日事业单位统考成绩且达到168分。",
+  "impact": "有相应资格和笔试成绩、符合专业及居住证条件的文化事业岗位求职者。",
+  "action": "8月招聘批次已经过期；研究类似岗位要核对正式公告对统考成绩的限制，而不是只看岗位学历。",
+  "source_url": "https://m.sh.bendibao.com/job/308705.html?src=amap",
+  "official_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260825/t0035_1443267.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "公开招聘4名人员，包含2名12级专技、1名13级专技和1名9级管理",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260825/t0035_1443267.html",
+      "locator": "公告第一部分",
+      "status": "verified"
+    },
+    {
+      "claim": "要求参加3月28日上海事业单位集中笔试并达到168.0分",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260825/t0035_1443267.html",
+      "locator": "公告招聘对象第（三）项",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}
