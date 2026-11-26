@@ -1,0 +1,31 @@
+{
+  "id": "sh-oct2026-civil-service-2027",
+  "topic": "jobs",
+  "title": "上海2027年度公务员招录公告于10月31日发布",
+  "districts": [],
+  "published_at": "2026-10-31",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-11-07",
+  "summary": "上海公务员局10月31日发布2027年度公务员考试录用公告；网上报名11月1日至7日，笔试定于12月6日。",
+  "impact": "有意报考上海公务员的符合条件人员，岗位专业类别与定向资格须逐项判断。",
+  "action": "报名窗口已关闭；已报名考生需按招录公告打印准考证、准备12月6日笔试。",
+  "source_url": "https://sh.bendibao.com/job/20261031/310153.shtm",
+  "official_url": "https://shacs.gov.cn/recruits/440",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "市公务员局发布2027年度考录公务员公告（页面登记2026年10月31日）",
+      "locator": "市公务员局招录公告目录",
+      "source_url": "https://www.shacs.gov.cn/?type=gwykl",
+      "status": "verified"
+    },
+    {
+      "claim": "11月1日至7日网上报名、12月6日笔试",
+      "locator": "上海市政府11月4日转发招录指南",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261104/65c6d594b96342acb7053771d38f1f16.html",
+      "status": "verified"
+    }
+  ]
+}

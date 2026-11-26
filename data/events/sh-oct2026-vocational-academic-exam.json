@@ -1,0 +1,31 @@
+{
+  "id": "sh-oct2026-vocational-academic-exam",
+  "topic": "education",
+  "title": "上海中职学业水平考试报名安排公布",
+  "districts": [],
+  "published_at": "2026-10-21",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-11-03",
+  "summary": "市教育考试院发布中职学业水平考试报名通知：10月29日至11月3日由各区招考机构组织本区学生通过学校集体报名，12月进行考试。",
+  "impact": "在籍中职校学生和相关学校考试组织人员；报名不是普通社会人员可直接个人申请的入口。",
+  "action": "报名窗口已结束，关注12月5日英语口试及12月19—20日语数英、信息技术考试。",
+  "source_url": "https://sh.bendibao.com/edu/20261021/309957.shtm",
+  "official_url": "https://www.shmeea.edu.cn/page/21000/20261021/20636.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "报名组织时间为10月29日至11月3日",
+      "locator": "通知第一节",
+      "source_url": "https://www.shmeea.edu.cn/page/21000/20261021/20636.html",
+      "status": "verified"
+    },
+    {
+      "claim": "考试日期为12月5日、19日及20日",
+      "locator": "第一节考试时间表",
+      "source_url": "https://www.shmeea.edu.cn/page/21000/20261021/20636.html",
+      "status": "verified"
+    }
+  ]
+}

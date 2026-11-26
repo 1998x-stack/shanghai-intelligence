@@ -1,0 +1,31 @@
+{
+  "id": "sh-oct2026-national-day-consumption-data",
+  "topic": "economy",
+  "title": "上海商务委公布国庆假期消费监测：762.4亿元",
+  "districts": [],
+  "published_at": "2026-10-08",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市商务委发布9月30日至10月6日国庆消费监测：全市线上线下合计762.4亿元，同比增长9.9%；16区均组织消费券及补贴活动。",
+  "impact": "消费服务企业、商圈运营方以及研究本地商业和促消费政策的机构。",
+  "action": "这是一段国庆假期消费统计，不能外推为全月消费增长；将区级券种、商圈与实际销售联动跟踪。",
+  "source_url": "https://m.sh.bendibao.com/news/308883.html?src=amap",
+  "official_url": "https://www.shanghai.gov.cn/nw31406/20261008/42d702238eae47269468849d17a93448.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "9月30日至10月6日消费监测总额762.4亿元，同比9.9%",
+      "locator": "市商务委总体消费数据段",
+      "source_url": "https://www.shanghai.gov.cn/nw31406/20261008/42d702238eae47269468849d17a93448.html",
+      "status": "verified"
+    },
+    {
+      "claim": "16个区均结合区域特点推出消费券与补贴",
+      "locator": "国庆消费券一节",
+      "source_url": "https://www.shanghai.gov.cn/nw31406/20261008/42d702238eae47269468849d17a93448.html",
+      "status": "verified"
+    }
+  ]
+}

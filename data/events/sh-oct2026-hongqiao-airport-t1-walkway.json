@@ -1,0 +1,33 @@
+{
+  "id": "sh-oct2026-hongqiao-airport-t1-walkway",
+  "topic": "mobility",
+  "title": "虹桥机场T1与地铁10号线临时连廊10月8日调整",
+  "districts": [
+    "changning"
+  ],
+  "published_at": "2026-10-05",
+  "observed_at": "2026-11-26",
+  "effective_at": "2026-10-08",
+  "deadline": null,
+  "summary": "上海机场集团经上海发布提示：10月8日起，乘坐地铁10号线至虹桥1号航站楼的旅客需从1号口经空港一路侧新临时连廊前往T1，原3号口通道因施工关闭。",
+  "impact": "虹桥T1旅客，特别是携带大件行李、婴儿车或无障碍出行人群。",
+  "action": "出行前按现场最新指引规划路线；这是施工期间临时交通组织，并非永久路线。",
+  "source_url": "https://www.shanghai.gov.cn/nw17239/20261006/33e51938abdc468aaa40765e2ad82423.html",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20261006/33e51938abdc468aaa40765e2ad82423.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "10月8日开始使用空港一路侧新临时连廊",
+      "locator": "上海发布提示正文",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261006/33e51938abdc468aaa40765e2ad82423.html",
+      "status": "verified"
+    },
+    {
+      "claim": "地铁前往T1需要从1号口出站，原3号口地面连廊关闭",
+      "locator": "地铁去T1部分",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20261006/33e51938abdc468aaa40765e2ad82423.html",
+      "status": "verified"
+    }
+  ]
+}

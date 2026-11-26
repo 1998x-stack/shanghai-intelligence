@@ -1,0 +1,37 @@
+{
+  "id": "sh-oct2026-teacher-cert-interview",
+  "topic": "education",
+  "title": "上海2026下半年中小学教师资格面试报名公告发布",
+  "districts": [],
+  "published_at": "2026-10-26",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市教育考试院公布面试报名审核缴费办法；面试于12月5—6日举行，已报名成功者可于11月30日至12月6日下载准考证。",
+  "impact": "通过教师资格笔试、满足户籍或居住证等要求的考生。",
+  "action": "11月报名与缴费窗口已结束；已报名考生准备面试科目，按准考证指定时间到场。",
+  "source_url": "https://sh.bendibao.com/edu/20261026/310037.shtm",
+  "official_url": "https://www.shmeea.edu.cn/page/05500/20261026/20640.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "11月11日24:00前需完成网上缴费",
+      "locator": "考试院公告第二节（三）",
+      "source_url": "https://www.shmeea.edu.cn/page/05500/20261026/20640.html",
+      "status": "verified"
+    },
+    {
+      "claim": "面试日期为2026年12月5—6日",
+      "locator": "公告第三节",
+      "source_url": "https://www.shmeea.edu.cn/page/05500/20261026/20640.html",
+      "status": "verified"
+    },
+    {
+      "claim": "准考证11月30日至12月6日下载",
+      "locator": "公告第二节（四）",
+      "source_url": "https://www.shmeea.edu.cn/page/05500/20261026/20640.html",
+      "status": "verified"
+    }
+  ]
+}

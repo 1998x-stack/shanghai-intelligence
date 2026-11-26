@@ -1,0 +1,39 @@
+{
+  "id": "pudong-oct2026-teacher-recruitment-2027",
+  "topic": "jobs",
+  "title": "浦东新区2027年公办学校教师招聘第一批次启动",
+  "districts": [
+    "pudong"
+  ],
+  "published_at": "2026-10-16",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-10-23",
+  "summary": "浦东发布公办学校2027年第一批教师招聘报名公告，区统一笔试报名为10月19日至23日，教师岗位依招聘简章核对专业、学历、教师资格。",
+  "impact": "意向浦东公办中小学数学及其他学科岗位的2027届毕业生和符合条件的社会人员。",
+  "action": "该轮报名已经结束；关注公告后续学校考核和新批次信息，不把学校自主考核与区统一笔试混为一谈。",
+  "source_url": "https://sh.bendibao.com/job/20261016/309847.shtm",
+  "official_url": "https://zhaopin.pdhr.com/Attach/2027exam/GB2027teacher1piGG.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "第一批公办学校教师招聘面向社会公开开展",
+      "locator": "官方报名公告首段",
+      "source_url": "https://zhaopin.pdhr.com/Attach/2027exam/GB2027teacher1piGG.html",
+      "status": "verified"
+    },
+    {
+      "claim": "区统一笔试报名时间为2026年10月19日9:00至23日17:00",
+      "locator": "官方报名公告时间安排",
+      "source_url": "https://zhaopin.pdhr.com/Attach/2027exam/GB2027teacher1piGG.html",
+      "status": "verified"
+    },
+    {
+      "claim": "浦教人〔2026〕4号规定招聘条件与程序",
+      "locator": "浦东教育局关于印发招聘办法的通知",
+      "source_url": "https://www.pudong.gov.cn/zwgk/zdgkgw_jyj/2026/286/362017.html",
+      "status": "verified"
+    }
+  ]
+}
