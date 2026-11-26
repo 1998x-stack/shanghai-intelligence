@@ -1,0 +1,37 @@
+{
+  "id": "sh-metro-fare-2026",
+  "title": "上海轨道交通票价机制调整：12月1日实施",
+  "topic": "mobility",
+  "districts": [],
+  "published_at": "2026-11-23",
+  "observed_at": "2026-11-26",
+  "effective_at": "2026-12-01",
+  "deadline": null,
+  "summary": "市发展改革委明确：轨道交通基准票价起乘价3元、起乘里程0—4公里，2026年12月1日起执行。",
+  "impact": "乘坐上海轨道交通的市民，具体支出依乘车里程及优惠方案而定。",
+  "action": "检查日常通勤区间的新旧基准票价，关注申通地铁公布的优惠细则。",
+  "source_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20261123/f57b63885c514c829ee269ed589ab2b9.html",
+  "official_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20261123/f57b63885c514c829ee269ed589ab2b9.html",
+  "checked_at": "2026-11-26",
+  "evidence": [
+    {
+      "claim": "起乘价3元，起乘间距为0—4公里",
+      "source_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20261123/f57b63885c514c829ee269ed589ab2b9.html",
+      "locator": "正文第一部分第1项",
+      "status": "verified"
+    },
+    {
+      "claim": "新的票价机制自2026年12月1日起执行",
+      "source_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20261123/f57b63885c514c829ee269ed589ab2b9.html",
+      "locator": "正文实施时间",
+      "status": "verified"
+    },
+    {
+      "claim": "磁浮、金山铁路、市域机场线等不在本次适用范围",
+      "source_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20261123/f57b63885c514c829ee269ed589ab2b9.html",
+      "locator": "正文第一部分第2项",
+      "status": "verified"
+    }
+  ],
+  "status": "verified"
+}
