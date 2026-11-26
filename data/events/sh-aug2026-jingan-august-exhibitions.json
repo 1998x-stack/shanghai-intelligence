@@ -1,0 +1,35 @@
+{
+  "id": "sh-aug2026-jingan-august-exhibitions",
+  "title": "静安区8月展讯集中公布，含全国现代插画大展",
+  "topic": "lifestyle",
+  "districts": [
+    "jingan"
+  ],
+  "published_at": "2026-08-03",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "静安区政府8月3日发布暑期展览指南，其中全国现代插画艺术大展展出近300组作品，跨手绘、数字与跨界视觉艺术等形态。",
+  "impact": "喜欢美术馆、现代插画与暑期室内展览的居民游客。",
+  "action": "这些是历史展览安排，观展需核实当时主办方场馆开放细则，不能据8月清单推断现仍开放。",
+  "source_url": "https://www.shanghai.gov.cn/nw17239/20260803/4c25cab1c69d491e8eea748b29d6be23.html",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20260803/4c25cab1c69d491e8eea748b29d6be23.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "静安区政府8月3日发布展览清单",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260803/4c25cab1c69d491e8eea748b29d6be23.html",
+      "locator": "区政府公告标题与时间",
+      "status": "verified"
+    },
+    {
+      "claim": "全国现代插画大展约300组作品、涵盖数字及跨界插画",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260803/4c25cab1c69d491e8eea748b29d6be23.html",
+      "locator": "现代插画大展介绍",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

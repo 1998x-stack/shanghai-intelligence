@@ -1,0 +1,101 @@
+[
+  {
+    "id": "sample-size",
+    "claim": "人工选取并按七大主题整理23条2026年8月公开事件",
+    "source_url": "https://github.com/1998x-stack/shanghai-intelligence/tree/main/data/events",
+    "locator": "本月23份 sh-aug2026-*.json 记录",
+    "status": "derived",
+    "kind": "derived-editorial",
+    "notes": "编辑选样，不是全站统计"
+  },
+  {
+    "id": "housing-effective",
+    "claim": "沪八条8月20日发布，8月21日起施行",
+    "source_url": "https://zjw.sh.gov.cn/jsgl/20260820/82df5e3bf87845ed903492dc5d495574.html",
+    "locator": "关于优化本市房地产政策措施通知末段",
+    "status": "verified",
+    "kind": "official-fact",
+    "notes": "需按最新正式公告核实是否修订"
+  },
+  {
+    "id": "housing-downpayment",
+    "claim": "外环外符合条件的二套住房商业贷款最低首付不低于15%",
+    "source_url": "https://zjw.sh.gov.cn/jsgl/20260820/82df5e3bf87845ed903492dc5d495574.html",
+    "locator": "通知第四条",
+    "status": "verified",
+    "kind": "official-fact",
+    "notes": "需按最新正式公告核实是否修订"
+  },
+  {
+    "id": "loan-subsidy",
+    "claim": "贷款补贴为实际贷款1%，单套封顶5万元，贷款补贴总规模2亿元",
+    "source_url": "https://www.shanghai.gov.cn/gwk/search/content/5f90ebd0ac8e480d8a7ab92c2d79f8be",
+    "locator": "实施通知第二部分",
+    "status": "verified",
+    "kind": "official-fact",
+    "notes": "需按最新正式公告核实是否修订"
+  },
+  {
+    "id": "extra-subsidy",
+    "claim": "符合出售外环内旧房等条件的家庭可申领3万元，符合双项条件可叠加",
+    "source_url": "https://www.shanghai.gov.cn/gwk/search/content/5f90ebd0ac8e480d8a7ab92c2d79f8be",
+    "locator": "实施通知第一、二部分",
+    "status": "verified",
+    "kind": "official-fact",
+    "notes": "需按最新正式公告核实是否修订"
+  },
+  {
+    "id": "metro-proposal",
+    "claim": "8月19日发布票价听证第二次公告，9月7日听证",
+    "source_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20260819/b0582d1a6ea2499c9d8a775be9db235d.html",
+    "locator": "公告第一、五、六部分",
+    "status": "verified",
+    "kind": "official-fact",
+    "notes": "需按最新正式公告核实是否修订"
+  },
+  {
+    "id": "metro-final",
+    "claim": "11月23日正式复函明确起乘价3元，起乘里程0—4公里",
+    "source_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20261123/f57b63885c514c829ee269ed589ab2b9.html",
+    "locator": "正式复函第一部分",
+    "status": "verified",
+    "kind": "official-fact",
+    "notes": "需按最新正式公告核实是否修订"
+  },
+  {
+    "id": "software-target",
+    "claim": "软件信息服务业2030年规模目标4万亿元",
+    "source_url": "https://www.shanghai.gov.cn/gwk/search/content/7ff732b1c470421c86e46d14c0270ead",
+    "locator": "规划发展目标",
+    "status": "verified",
+    "kind": "official-fact",
+    "notes": "需按最新正式公告核实是否修订"
+  },
+  {
+    "id": "emerging-target",
+    "claim": "战略性新兴产业2030年增加值预期达2.1万亿元",
+    "source_url": "https://www.shanghai.gov.cn/nw12344/20260826/0f32f0c1379a4e949a1ca414b0be25b5.html",
+    "locator": "规划总体目标",
+    "status": "verified",
+    "kind": "official-fact",
+    "notes": "需按最新正式公告核实是否修订"
+  },
+  {
+    "id": "public-data-target",
+    "claim": "数字上海规划2030年公共数据开放规模100亿条",
+    "source_url": "https://www.shanghai.gov.cn/nw12344/20260819/6cf80b0875f1465c94886f0b1a4a4f35.html",
+    "locator": "规划专栏1指标第3项",
+    "status": "verified",
+    "kind": "official-fact",
+    "notes": "需按最新正式公告核实是否修订"
+  },
+  {
+    "id": "rental-housing-target",
+    "claim": "城市更新住房发展十五五规划保租房新增25—27万套间目标",
+    "source_url": "https://www.shanghai.gov.cn/nw12344/20260820/f584d873f87045148c7eccce1ae637b3.html",
+    "locator": "规划专栏指标第6项",
+    "status": "verified",
+    "kind": "official-fact",
+    "notes": "需按最新正式公告核实是否修订"
+  }
+]

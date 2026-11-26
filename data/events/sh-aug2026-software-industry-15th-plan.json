@@ -1,0 +1,39 @@
+{
+  "id": "sh-aug2026-software-industry-15th-plan",
+  "title": "上海软件和信息服务业“十五五”规划公开：2030年规模4万亿元",
+  "topic": "economy",
+  "districts": [],
+  "published_at": "2026-08-11",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市经信委8月11日公开规划：2030年软件和信息服务业产业规模力争达到4万亿元、增加值超过1.1万亿元，均为预期性规划。",
+  "impact": "本地软件企业、AI应用开发者、数据服务和工业软件研究者。",
+  "action": "把产业目标拆为重点技术赛道和项目征集观察项，不把2030规划写作2026当前经济规模。",
+  "source_url": "https://www.shanghai.gov.cn/gwk/search/content/7ff732b1c470421c86e46d14c0270ead",
+  "official_url": "https://www.shanghai.gov.cn/gwk/search/content/7ff732b1c470421c86e46d14c0270ead",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "印发8月4日、公开8月11日",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/7ff732b1c470421c86e46d14c0270ead",
+      "locator": "公文页眉",
+      "status": "verified"
+    },
+    {
+      "claim": "2030年产业规模力争达到4万亿元",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/7ff732b1c470421c86e46d14c0270ead",
+      "locator": "规划发展目标",
+      "status": "verified"
+    },
+    {
+      "claim": "2030年增加值突破1.1万亿元",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/7ff732b1c470421c86e46d14c0270ead",
+      "locator": "规划指标表",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "planning",
+  "source_level": "official"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "sh-aug2026-flexible-graduates-social-subsidy",
+  "title": "宝山区公布离校毕业生灵活就业社保补贴办事说明",
+  "topic": "benefits",
+  "districts": [
+    "baoshan"
+  ],
+  "published_at": "2026-08-17",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "宝山区政府8月17日公开指南：离校2年内初次以灵活就业身份就业并缴纳职工基本养老和医保的符合条件高校毕业生，可按规定缴费基数下限计算社保费的50%申领补贴，累计不超24个月。",
+  "impact": "上海户籍离校未就业高校毕业生以及符合条件的非沪籍上海高校毕业生。",
+  "action": "该条是8月发布的既有政策办事解读，不是8月新创设50%补贴；按户籍或实际居住地区就业促进中心办理。",
+  "source_url": "https://www.shanghai.gov.cn/nw17239/20260817/ec08fdb6f8d54560a1001eb21a702739.html",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20260817/ec08fdb6f8d54560a1001eb21a702739.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "符合条件的毕业生灵活就业参保可申请社保费补贴",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260817/ec08fdb6f8d54560a1001eb21a702739.html",
+      "locator": "官方补贴对象",
+      "status": "verified"
+    },
+    {
+      "claim": "标准按相应缴费基数下限计算社保费的50%",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260817/ec08fdb6f8d54560a1001eb21a702739.html",
+      "locator": "补贴标准",
+      "status": "verified"
+    },
+    {
+      "claim": "补贴累计期限不超过24个月",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260817/ec08fdb6f8d54560a1001eb21a702739.html",
+      "locator": "补贴期限",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "existing-policy-guide",
+  "source_level": "official"
+}

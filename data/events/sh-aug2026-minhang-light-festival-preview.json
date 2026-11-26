@@ -1,0 +1,35 @@
+{
+  "id": "sh-aug2026-minhang-light-festival-preview",
+  "title": "闵行分会场8月预告第三届上海国际光影节活动",
+  "topic": "lifestyle",
+  "districts": [
+    "minhang"
+  ],
+  "published_at": "2026-08-25",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-10-07",
+  "summary": "闵行区政府8月25日预告9月24日至10月7日光影节闵行分会场，活动以梅陇南方商圈为中心，规划3.5公里展线并结合消费券。",
+  "impact": "国庆期间到闵行观展及参与区域夜经济活动的居民、游客。",
+  "action": "这是8月发布的秋季活动预告，活动已结束；消费券应以当时有效规则判断，不能视为当前仍可领取。",
+  "source_url": "https://www.shanghai.gov.cn/nw17239/20260825/0e90b3be6195471ebbd097b9d188c059.html",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20260825/0e90b3be6195471ebbd097b9d188c059.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "闵行光影节展期为9月24日至10月7日",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260825/0e90b3be6195471ebbd097b9d188c059.html",
+      "locator": "区政府首段",
+      "status": "verified"
+    },
+    {
+      "claim": "梅陇南方商圈为核心、3.5公里展线",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260825/0e90b3be6195471ebbd097b9d188c059.html",
+      "locator": "活动区政府第二段",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

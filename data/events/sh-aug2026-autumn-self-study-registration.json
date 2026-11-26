@@ -1,0 +1,33 @@
+{
+  "id": "sh-aug2026-autumn-self-study-registration",
+  "title": "上海下半年自考报名安排公布：9月1日至6日开放",
+  "topic": "education",
+  "districts": [],
+  "published_at": "2026-08-24",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-09-06",
+  "summary": "市教育考试院8月24日发布下半年自考安排，10月24—25日考试；2026年启用新专业考试计划，报名9月1日9时至6日12时。",
+  "impact": "计划参加上海高等教育自学考试或调整专业计划的社会考生。",
+  "action": "报名及考试已经结束；历史档案须保留新专业计划切换信息，之后考试以新公告为准。",
+  "source_url": "https://www.shmeea.edu.cn/page/04100/20260824/20557.html",
+  "official_url": "https://www.shmeea.edu.cn/page/04100/20260824/20557.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "网上报名时间9月1日9时至9月6日12时",
+      "source_url": "https://www.shmeea.edu.cn/page/04100/20260824/20557.html",
+      "locator": "2026年下半年自考报名公告",
+      "status": "verified"
+    },
+    {
+      "claim": "考试安排10月24日至25日、2026年启用新专业计划",
+      "source_url": "https://www.shmeea.edu.cn/page/04100/20260824/20557.html",
+      "locator": "自考公告考试时间及提示",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

@@ -35,5 +35,8 @@
     }
   ],
   "event_stage": "planning",
-  "source_level": "official"
+  "source_level": "official",
+  "related_event_ids": [
+    "sh-aug2026-city-renewal-housing-15th-plan"
+  ]
 }

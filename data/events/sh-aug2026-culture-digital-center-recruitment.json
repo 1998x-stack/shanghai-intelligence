@@ -1,0 +1,33 @@
+{
+  "id": "sh-aug2026-culture-digital-center-recruitment",
+  "title": "上海市文化和旅游数智发展中心公开招聘",
+  "topic": "jobs",
+  "districts": [],
+  "published_at": "2026-08-28",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市人社局8月28日发布该中心招聘公告，招聘条件包含已参加2026年3月28日事业单位招聘集中笔试并达168.0分的资格要求。",
+  "impact": "符合数字媒体、设计、新闻传播、文化数智化等专业条件的应聘人员。",
+  "action": "核对岗位附件与正式专业代码；不能仅凭“数字”或“AI”字样推断招聘软件开发岗位。",
+  "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260828/t0035_1443398.html",
+  "official_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260828/t0035_1443398.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "上海市文化和旅游数智发展中心发布公开招聘公告",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260828/t0035_1443398.html",
+      "locator": "公告标题及发布时间",
+      "status": "verified"
+    },
+    {
+      "claim": "部分应聘资格要求已参加3月28日事业单位集中笔试且达到168分",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260828/t0035_1443398.html",
+      "locator": "基本条件第（八）项",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

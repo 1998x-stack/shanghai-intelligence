@@ -93,6 +93,14 @@ def load_events() -> list[dict]:
                     raise ValueError(f"{path}: unpublished evidence in verified event")
                 official_url(claim.get("source_url", ""))
             events.append(item)
+    all_ids = ids
+    for item in events:
+        relations = item.get("related_event_ids", [])
+        if not isinstance(relations, list) or len(relations) != len(set(relations)):
+            raise ValueError(f"Invalid or duplicated related_event_ids for {item['id']}")
+        for related in relations:
+            if related == item["id"] or related not in all_ids:
+                raise ValueError(f"Broken related event {related} on {item['id']}")
     return sorted(events, key=lambda e: (e["published_at"], e["id"]), reverse=True)
 
 
@@ -279,6 +287,13 @@ def build_monthly(events: list[dict]) -> None:
 
 
 def build_events(events: list[dict]) -> None:
+    by_id = {event["id"]: event for event in events}
+    stage_labels = {
+        "effective": "已生效", "planning": "规划目标", "expired": "历史信息/期限已结束",
+        "superseded": "已被后续正式文件替代", "consultation": "征求意见阶段",
+        "existing-policy-guide": "存量政策办理指南", "seasonal": "季节性活动",
+        "published": "已公开发布",
+    }
     for e in events:
         district = " / ".join(DISTRICT_BY_ID[d]["name"] for d in e.get("districts", [])) or "全市"
         facts = [
@@ -290,16 +305,24 @@ def build_events(events: list[dict]) -> None:
             ("截止日期", e.get("deadline") or "未设定或尚未确认"),
             ("最后核验", e["checked_at"]),
         ]
+        if e.get("event_stage"):
+            facts.append(("事件阶段", stage_labels.get(e["event_stage"], e["event_stage"])))
         rows = "".join(f"<dt>{esc(a)}</dt><dd>{esc(b)}</dd>" for a, b in facts)
         evid = "".join(
             f'<li><p>{esc(c["claim"])}</p><span>定位：{esc(c["locator"])}</span> '
             f'<a href="{official_url(c["source_url"])}" target="_blank" rel="noopener noreferrer">查看证据 ↗</a></li>'
             for c in e["evidence"]
         )
+        related_links = "".join(
+            '<li><a href="' + local("events/" + rid + "/") + '">' + esc(by_id[rid]["title"]) + ' ↗</a></li>'
+            for rid in e.get("related_event_ids", []) if rid in by_id
+        )
+        related_section = ('<h2>相关事项与政策版本</h2><ul>' + related_links + '</ul>') if related_links else ''
         body = hero("VERIFIED INTELLIGENCE", e["title"], e["summary"])
         body += (f'<section class="shell section article-layout"><article class="article-body"><h2>关键信息</h2><p>{esc(e["summary"])}</p>'
                  f'<h2>涉及对象与影响</h2><p>{esc(e.get("impact") or "以官方文件适用条件为准。")}</p>'
                  f'<h2>可以采取的行动</h2><p>{esc(e.get("action") or "阅读最新官方原文并核对适用条件。")}</p>'
+                 f'{related_section}'
                  f'<h2>证据账本</h2><ol class="evidence-list">{evid}</ol>'
                  f'<p><a href="{official_url(e["official_url"])}" target="_blank" rel="noopener noreferrer">阅读官方原文 ↗</a></p>'
                  f'<p><a href="{official_url(e["source_url"])}" target="_blank" rel="noopener noreferrer">最初线索来源 ↗</a></p></article>'

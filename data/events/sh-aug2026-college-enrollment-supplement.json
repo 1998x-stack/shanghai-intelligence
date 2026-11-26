@@ -1,0 +1,33 @@
+{
+  "id": "sh-aug2026-college-enrollment-supplement",
+  "title": "上海2026年高考专科征求志愿8月4日进行",
+  "topic": "education",
+  "districts": [],
+  "published_at": "2026-08-03",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-08-04",
+  "summary": "市教育考试院8月3日公告专科普通批录取查询开通，8月4日进行专科征求志愿网上填报，属于未录取考生的最后阶段录取机会。",
+  "impact": "当年度高考专科阶段尚未录取且符合志愿要求的考生。",
+  "action": "2026年该批次已经结束，不应作为当前志愿通道；可用于研究上海专科阶段录取时间结构。",
+  "source_url": "https://www.shmeea.edu.cn/page/08000/20260803/20539.html",
+  "official_url": "https://www.shmeea.edu.cn/page/08000/20260803/20539.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "2026年专科普通批次录取查询开放",
+      "source_url": "https://www.shmeea.edu.cn/page/08000/20260803/20539.html",
+      "locator": "公告标题",
+      "status": "verified"
+    },
+    {
+      "claim": "专科征求志愿于8月4日进行、须核对院校计划及成绩分布",
+      "source_url": "https://www.shmeea.edu.cn/page/08000/20260803/20539.html",
+      "locator": "征求志愿填报通知",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

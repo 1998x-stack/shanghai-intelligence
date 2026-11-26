@@ -1,0 +1,43 @@
+{
+  "id": "sh-aug2026-housing-replacement-subsidy",
+  "title": "上海住房以旧换新贷款补贴实施细则发布：1%最高5万元",
+  "topic": "housing",
+  "districts": [],
+  "published_at": "2026-08-21",
+  "observed_at": "2026-11-26",
+  "effective_at": "2026-08-21",
+  "deadline": "2027-03-31",
+  "summary": "市房屋管理部门明确外环外新建商品房、出售本市二手房等条件，贷款补贴为贷款总额1%、最高5万元；出售外环内二手房符合条件还可申领3万元置换补贴。",
+  "impact": "准备先卖旧房、再买外环外新房的居民家庭。",
+  "action": "到2027年3月31日仍属政策规定窗口，但贷款补贴总规模2亿元、用完即止；应实时查询余额与交易登记要求。",
+  "source_url": "https://www.shanghai.gov.cn/gwk/search/content/5f90ebd0ac8e480d8a7ab92c2d79f8be",
+  "official_url": "https://www.shanghai.gov.cn/gwk/search/content/5f90ebd0ac8e480d8a7ab92c2d79f8be",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "贷款补贴按贷款总额1%，单套最高5万元、资金总规模2亿元",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/5f90ebd0ac8e480d8a7ab92c2d79f8be",
+      "locator": "细则第二部分",
+      "status": "verified"
+    },
+    {
+      "claim": "出售外环内二手住房可按条件申请3万元置换补贴，并可符合条件叠加",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/5f90ebd0ac8e480d8a7ab92c2d79f8be",
+      "locator": "细则第一、二部分",
+      "status": "verified"
+    },
+    {
+      "claim": "申请期为2026年8月21日至2027年3月31日",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/5f90ebd0ac8e480d8a7ab92c2d79f8be",
+      "locator": "细则第一部分",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "effective",
+  "source_level": "official",
+  "context": "与8月20日沪八条同一政策事件链：本条为8月21日发布的操作细则，不是另一笔独立政策预算。",
+  "related_event_ids": [
+    "sh-aug2026-eight-housing-measures"
+  ]
+}

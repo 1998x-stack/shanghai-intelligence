@@ -27,7 +27,7 @@ class TestShanghaiSite(unittest.TestCase):
     def test_required_routes(self):
         for path in ("index.html", "archive/index.html", "daily/index.html",
                      "topics/index.html", "districts/index.html",
-                     "reports/index.html", "monthly/index.html", "monthly/2026-10/index.html", "monthly/2026-09/index.html", "sources/index.html", "404.html", "feed.json"):
+                     "reports/index.html", "monthly/index.html", "monthly/2026-10/index.html", "monthly/2026-09/index.html", "monthly/2026-08/index.html", "sources/index.html", "404.html", "feed.json"):
             self.assertTrue((build_site.OUT / path).is_file(), path)
 
     def test_draft_is_not_public(self):
@@ -62,6 +62,20 @@ class TestShanghaiSite(unittest.TestCase):
             slug = report["slug"]
             self.assertTrue((ROOT / "content/reports" / slug / "evidence.json").exists())
             self.assertTrue((build_site.OUT / "reports" / slug / "index.html").exists())
+
+    def test_august_month_archiving(self):
+        page = (build_site.OUT / "monthly/2026-08/index.html").read_text(encoding="utf-8")
+        self.assertIn("sh-aug2026-metro-fare-hearing", page)
+        self.assertIn("august-2026-shanghai-intelligence", page)
+        self.assertEqual(len([e for e in build_site.load_events() if e["published_at"].startswith("2026-08")]), 23)
+        self.assertTrue((build_site.OUT / "reports/august-2026-shanghai-intelligence/index.html").exists())
+
+    def test_related_event_version_links(self):
+        hearing = (build_site.OUT / "events/sh-aug2026-metro-fare-hearing/index.html").read_text(encoding="utf-8")
+        final = (build_site.OUT / "events/sh-metro-fare-2026/index.html").read_text(encoding="utf-8")
+        self.assertIn("/shanghai-intelligence/events/sh-metro-fare-2026/", hearing)
+        self.assertIn("/shanghai-intelligence/events/sh-aug2026-metro-fare-hearing/", final)
+        self.assertIn("已被后续正式文件替代", hearing)
 
     def test_feed_is_array(self):
         data = json.loads((build_site.OUT / "feed.json").read_text(encoding="utf-8"))

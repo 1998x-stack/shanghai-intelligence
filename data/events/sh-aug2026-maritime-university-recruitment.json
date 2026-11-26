@@ -1,0 +1,39 @@
+{
+  "id": "sh-aug2026-maritime-university-recruitment",
+  "title": "上海海事大学公开招聘3名事业编制内人员",
+  "topic": "jobs",
+  "districts": [],
+  "published_at": "2026-08-21",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-09-30",
+  "summary": "海事大学第二批招聘研究人员2名和期刊中心主任1名；正式公告明确属于事业编制内录用，报名至9月30日。",
+  "impact": "研究、学术编辑及高校科研岗位应聘者，非上海户籍社会人员有居住证要求。",
+  "action": "招聘已结束，后续可对照研究机构公告判断是否真正明确“编制内录用”，避免只依赖平台标签。",
+  "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260821/t0035_1443233.html",
+  "official_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260821/t0035_1443233.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "研究人员2名、期刊中心主任1名",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260821/t0035_1443233.html",
+      "locator": "公告第二节",
+      "status": "verified"
+    },
+    {
+      "claim": "明确属于事业编制内录用人员",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260821/t0035_1443233.html",
+      "locator": "公告第五节相关待遇",
+      "status": "verified"
+    },
+    {
+      "claim": "报名自公布之日至2026年9月30日",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260821/t0035_1443233.html",
+      "locator": "公告第四节报名时间",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

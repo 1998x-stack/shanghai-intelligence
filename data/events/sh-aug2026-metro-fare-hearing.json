@@ -1,0 +1,43 @@
+{
+  "id": "sh-aug2026-metro-fare-hearing",
+  "title": "上海地铁票价调整听证方案8月19日公布：仍非正式票价",
+  "topic": "mobility",
+  "districts": [],
+  "published_at": "2026-08-19",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市发改委8月19日发布听证会第二次公告，确定9月7日听证，并在8月19日至9月6日期间征求意见；该版本不等于11月出台的最终票价方案。",
+  "impact": "依赖上海地铁通勤的市民及公共交通成本政策研究人员。",
+  "action": "本条保留为政策历史版本，不把任何听证价格当作已经实施；正式票价请查2026年11月23日复函。",
+  "source_url": "https://m.sh.bendibao.com/traffic/308561.html?src=amap",
+  "official_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20260819/b0582d1a6ea2499c9d8a775be9db235d.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "第二次听证公告发布于8月19日，听证安排9月7日14时",
+      "source_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20260819/b0582d1a6ea2499c9d8a775be9db235d.html",
+      "locator": "公告标题及第一部分",
+      "status": "verified"
+    },
+    {
+      "claim": "社会意见征集8月19日至9月6日",
+      "source_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20260819/b0582d1a6ea2499c9d8a775be9db235d.html",
+      "locator": "公告其他事项",
+      "status": "verified"
+    },
+    {
+      "claim": "最终2026年11月票价复函与听证阶段不同",
+      "source_url": "https://fgw.sh.gov.cn/fgw_jjjctk/20261123/f57b63885c514c829ee269ed589ab2b9.html",
+      "locator": "2026年11月23日复函",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "superseded",
+  "source_level": "official",
+  "context": "本条是8月官方听证版本，已被11月最终发布的票价机制替代；关联站内已有事件 sh-metro-fare-2026。",
+  "related_event_ids": [
+    "sh-metro-fare-2026"
+  ]
+}

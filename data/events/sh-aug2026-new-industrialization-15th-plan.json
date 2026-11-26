@@ -1,0 +1,33 @@
+{
+  "id": "sh-aug2026-new-industrialization-15th-plan",
+  "title": "上海新型工业化“十五五”规划正式公开",
+  "topic": "economy",
+  "districts": [],
+  "published_at": "2026-08-24",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市政府8月24日公布新型工业化五年规划，提出以先进制造业为骨干，推进人工智能赋能、绿色转型和先进制造业与现代服务业融合。",
+  "impact": "本地制造业、产业链上下游企业、工业软件与职业教育机构。",
+  "action": "规划是五年方向，后续需跟踪各区具体产业扶持目录、项目招标与招工需求。",
+  "source_url": "https://www.shanghai.gov.cn/nw12344/20260824/0c052ef0042c4a09bcae2adfe2babe62.html",
+  "official_url": "https://www.shanghai.gov.cn/nw12344/20260824/0c052ef0042c4a09bcae2adfe2babe62.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "2026年8月24日公开，公文7月印发",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260824/0c052ef0042c4a09bcae2adfe2babe62.html",
+      "locator": "公文页眉",
+      "status": "verified"
+    },
+    {
+      "claim": "规划目标是到2030年形成智能化、绿色化、融合化发展的现代产业体系",
+      "source_url": "https://www.shanghai.gov.cn/nw12344/20260824/0c052ef0042c4a09bcae2adfe2babe62.html",
+      "locator": "规划总体要求",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "planning",
+  "source_level": "official"
+}
