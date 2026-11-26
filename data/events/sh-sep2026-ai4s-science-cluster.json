@@ -1,0 +1,35 @@
+{
+  "id": "sh-sep2026-ai4s-science-cluster",
+  "title": "静安公布长三角AI4S算力集群启用与科学智能生态社区揭牌",
+  "topic": "economy",
+  "districts": [
+    "jingan"
+  ],
+  "published_at": "2026-09-14",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "静安区政府9月14日报道：9月11日长三角AI4S算力集群启用、静安科学智能生态社区揭牌，集中推进人工智能用于科学研究的基础设施与合作项目。",
+  "impact": "科学计算、材料、生物医药AI、科研软件与数据基础设施企业和研究者。",
+  "action": "区分“已启用基础设施”与项目未来商业成果；后续可追踪开放算力、项目招标和场景合作通告。",
+  "source_url": "https://www.shanghai.gov.cn/nw15343/20260914/5c1708c741634e2380e93dbdb2f07dbc.html",
+  "official_url": "https://www.shanghai.gov.cn/nw15343/20260914/5c1708c741634e2380e93dbdb2f07dbc.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "9月11日长三角AI4S算力集群启用",
+      "locator": "区政府新闻首段",
+      "source_url": "https://www.shanghai.gov.cn/nw15343/20260914/5c1708c741634e2380e93dbdb2f07dbc.html",
+      "status": "verified"
+    },
+    {
+      "claim": "静安区科学智能生态社区同期揭牌",
+      "locator": "区政府新闻首段",
+      "source_url": "https://www.shanghai.gov.cn/nw15343/20260914/5c1708c741634e2380e93dbdb2f07dbc.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "launched",
+  "source_level": "official"
+}

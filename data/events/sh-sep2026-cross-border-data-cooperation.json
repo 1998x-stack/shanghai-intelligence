@@ -1,0 +1,34 @@
+{
+  "id": "sh-sep2026-cross-border-data-cooperation",
+  "title": "上海国际数据合作试点提出50个标杆场景与10个互操作目标",
+  "topic": "economy",
+  "districts": [],
+  "published_at": "2026-09-17",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "9月17日上海市政府网站转载报道，引用市数据局宣贯会信息：未来五年计划打造50个国际数据合作标杆场景、实现10个跨境数据互操作，属于目标而非已验收成果。",
+  "impact": "面向跨境电商、大模型出海、数字贸易与数据合规服务的企业。",
+  "action": "把数字目标转化为后续正式项目征集、标准、跨境合规机制的监测指标，不能推断现有项目已经全部建成。",
+  "source_url": "https://www.shanghai.gov.cn/nw4411/20260917/f367c85efff44dedbafb9f2d1a1c0f0a.html",
+  "official_url": "https://www.shanghai.gov.cn/nw4411/20260917/f367c85efff44dedbafb9f2d1a1c0f0a.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "市政府转载报道引述市数据局试点宣贯会",
+      "locator": "报道首段",
+      "source_url": "https://www.shanghai.gov.cn/nw4411/20260917/f367c85efff44dedbafb9f2d1a1c0f0a.html",
+      "status": "verified"
+    },
+    {
+      "claim": "未来五年目标为50个标杆场景与10个跨境数据互操作",
+      "locator": "报道首段",
+      "source_url": "https://www.shanghai.gov.cn/nw4411/20260917/f367c85efff44dedbafb9f2d1a1c0f0a.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "planning",
+  "source_level": "government_republished_media",
+  "context": "政府网站转载解放日报内容；部分数字来自市数据局宣贯会，尚非逐项目验收统计。"
+}

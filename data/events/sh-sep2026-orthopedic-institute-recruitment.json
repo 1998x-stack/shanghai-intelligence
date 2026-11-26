@@ -1,0 +1,33 @@
+{
+  "id": "sh-sep2026-orthopedic-institute-recruitment",
+  "title": "上海市伤骨科研究所招聘科研与实验技术人员",
+  "topic": "jobs",
+  "districts": [],
+  "published_at": "2026-09-22",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市人社局9月22日发布招聘，公开招聘专业技术人员5人，其中科研3人、实验技术2人。",
+  "impact": "具备相关生命医学、科研实验或临床转化能力的求职者。",
+  "action": "以正式招聘简章确认学历、专业、岗位资格与最新招聘进度，不把5个专业岗位误认成一般综合行政岗位。",
+  "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260920/t0035_1443815.html",
+  "official_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260920/t0035_1443815.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "本次招聘专业技术人员共5人",
+      "locator": "招聘岗位人数",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260920/t0035_1443815.html",
+      "status": "verified"
+    },
+    {
+      "claim": "其中科研岗位3人、实验室技术岗位2人",
+      "locator": "招聘岗位职数",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260920/t0035_1443815.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "published",
+  "source_level": "official"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "sh-sep2026-housing-sales-reform",
+  "title": "上海商品住房销售改革：新项目优先现房销售、预售资金全程监管",
+  "topic": "housing",
+  "districts": [],
+  "published_at": "2026-09-28",
+  "observed_at": "2026-11-26",
+  "effective_at": "2026-09-28",
+  "deadline": null,
+  "summary": "9月28日四部门发布实施意见：8月28日后新公告出让土地的项目优先选择现房销售，实行现房销售的项目定金一般不超过总价3%；新取得土地项目申请预售时主体结构须封顶。",
+  "impact": "新房购买者、开发商及住房融资机构。",
+  "action": "核对项目拿地和规划许可证时间，确认预售、现售与定金合同适用哪一条过渡规定，勿笼统认定所有新房都必须现售。",
+  "source_url": "https://sh.bendibao.com/fangchan/2026930/309609.shtm",
+  "official_url": "https://www.shanghai.gov.cn/gwk/search/content/aae26572365b49129bc4642a76a5040e",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "新取得土地项目申请预售单体应完成主体结构封顶、预售资金全额全程监管",
+      "locator": "第一部分第一款",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/aae26572365b49129bc4642a76a5040e",
+      "status": "verified"
+    },
+    {
+      "claim": "8月28日起新公告出让土地的商品房项目优先选择现房销售",
+      "locator": "第二部分",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/aae26572365b49129bc4642a76a5040e",
+      "status": "verified"
+    },
+    {
+      "claim": "现房项目定金一般不超过总价3%",
+      "locator": "第二部分",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/aae26572365b49129bc4642a76a5040e",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "effective",
+  "source_level": "official"
+}

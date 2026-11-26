@@ -1,0 +1,41 @@
+{
+  "id": "sh-sep2026-xuhui-car-subsidy-second-round",
+  "title": "徐汇区第二轮汽车补贴：最高4000元、限4000个额度",
+  "topic": "benefits",
+  "districts": [
+    "xuhui"
+  ],
+  "published_at": "2026-09-10",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-11-05",
+  "summary": "徐汇区政府9月10日公布第二轮汽车消费补贴，9月1日至10月31日购车开票，9月15日至11月5日申领，单车最高4000元，额度4000个。",
+  "impact": "在参与活动的徐汇区汽车销售企业购买规定车型的个人购车人。",
+  "action": "申报期已结束且额度先到先得；保留发票/登记证明仅供已申请人员查询审核与复议记录。",
+  "source_url": "https://www.shanghai.gov.cn/nw17239/20260910/f6ceb71ddafc4a1cabd27639066853e7.html",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20260910/f6ceb71ddafc4a1cabd27639066853e7.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "车价分档补贴1000—4000元，最高4000元",
+      "locator": "活动内容部分",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260910/f6ceb71ddafc4a1cabd27639066853e7.html",
+      "status": "verified"
+    },
+    {
+      "claim": "本轮共4000个额度、先到先得",
+      "locator": "活动内容与重要提示",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260910/f6ceb71ddafc4a1cabd27639066853e7.html",
+      "status": "verified"
+    },
+    {
+      "claim": "申领时间9月15日至11月5日",
+      "locator": "重要提示第3项",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260910/f6ceb71ddafc4a1cabd27639066853e7.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "sh-sep2026-medical-vaccine-account",
+  "title": "职工医保历年结余可支付非免疫规划疫苗与接种服务费",
+  "topic": "benefits",
+  "districts": [],
+  "published_at": "2026-09-14",
+  "observed_at": "2026-11-26",
+  "effective_at": "2026-09-15",
+  "deadline": null,
+  "summary": "市医保局9月14日公开文件，明确在本市定点机构接种非免疫规划疫苗，疫苗费用和对应注射服务费可以由职工医保个人账户历年结余（含家庭共济）支付。",
+  "impact": "有合规医保个人账户历年结余可用、需要接种相关疫苗的上海参保群体。",
+  "action": "到定点机构确认疫苗是否属于目录、结算系统是否支持家庭共济，区别“个人账户支付”和“医保统筹报销”。",
+  "source_url": "https://www.shanghai.gov.cn/gwk/search/content/52a884336736421ba9ace49d84ddbc80",
+  "official_url": "https://www.shanghai.gov.cn/gwk/search/content/52a884336736421ba9ace49d84ddbc80",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "本市定点医疗机构非免疫规划疫苗费及注射服务费可用历年结余资金支付",
+      "locator": "第一条",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/52a884336736421ba9ace49d84ddbc80",
+      "status": "verified"
+    },
+    {
+      "claim": "含家庭共济资金",
+      "locator": "第一条",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/52a884336736421ba9ace49d84ddbc80",
+      "status": "verified"
+    },
+    {
+      "claim": "通知2026年9月15日起实施",
+      "locator": "通知末段",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/52a884336736421ba9ace49d84ddbc80",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "effective",
+  "source_level": "official"
+}

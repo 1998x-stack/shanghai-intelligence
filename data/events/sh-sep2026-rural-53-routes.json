@@ -1,0 +1,33 @@
+{
+  "id": "sh-sep2026-rural-53-routes",
+  "title": "上海金秋乡村微度假发布53条精品线路",
+  "topic": "lifestyle",
+  "districts": [],
+  "published_at": "2026-09-07",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "上海发布9月6日发布、政府门户9月7日收录：围绕9个涉农区与光明集团，金秋乡村主题游推出53条精品线路，覆盖采摘、骑行、亲子研学及非遗等。",
+  "impact": "希望了解郊区文旅资源的游客和当地旅游、乡村服务经营者。",
+  "action": "路线清单是9月发布的季节性推荐，具体景点开放、预约及消费价格需以后续运营方公告为准。",
+  "source_url": "https://www.shanghai.gov.cn/nw17239/20260907/035877c1b70241efb584b914cbf0652f.html",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20260907/035877c1b70241efb584b914cbf0652f.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "全市推出53条乡村主题游精品线路",
+      "locator": "新闻导语",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260907/035877c1b70241efb584b914cbf0652f.html",
+      "status": "verified"
+    },
+    {
+      "claim": "联动9个涉农区及光明集团",
+      "locator": "新闻正文",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260907/035877c1b70241efb584b914cbf0652f.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "seasonal",
+  "source_level": "official"
+}

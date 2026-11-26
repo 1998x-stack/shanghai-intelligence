@@ -1,0 +1,33 @@
+{
+  "id": "sh-sep2026-tourism-festival-2026",
+  "title": "第37届上海旅游节经典活动季推出170余项活动",
+  "topic": "lifestyle",
+  "districts": [],
+  "published_at": "2026-09-05",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市政府9月5日转载报道介绍旅游节经典活动季，拟集中推出170余项活动；9月12日外滩巡游包含21个表演方队及21辆花车。",
+  "impact": "参与城市文旅活动的居民、游客和夜经济经营者。",
+  "action": "历史活动已结束；研究时将预计/宣传活动数量与最终举办数量分开，不直接推断游客消费贡献。",
+  "source_url": "https://sh.bendibao.com/tour/list_14_1006_4.htm",
+  "official_url": "https://www.shanghai.gov.cn/nw4411/20260905/0be76f91468046e0bedc74c1217d4261.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "经典活动季集中推出170余项高品质文旅活动",
+      "locator": "报道第一段",
+      "source_url": "https://www.shanghai.gov.cn/nw4411/20260905/0be76f91468046e0bedc74c1217d4261.html",
+      "status": "verified"
+    },
+    {
+      "claim": "9月12日巡游包括21个表演方队、21辆主题花车",
+      "locator": "报道第二段",
+      "source_url": "https://www.shanghai.gov.cn/nw4411/20260905/0be76f91468046e0bedc74c1217d4261.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "government_republished_media"
+}

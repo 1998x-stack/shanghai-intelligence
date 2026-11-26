@@ -1,0 +1,39 @@
+{
+  "id": "sh-sep2026-medical-burden-relief",
+  "title": "上海职工医保综合减负修订：9月22日起施行",
+  "topic": "benefits",
+  "districts": [],
+  "published_at": "2026-09-11",
+  "observed_at": "2026-11-26",
+  "effective_at": "2026-09-22",
+  "deadline": null,
+  "summary": "市医保局公布修订办法，面向本市职工医保的在职职工和退休人员；符合按收入分类的自负医疗费门槛，超过规定比例的部分实行90%综合减负。",
+  "impact": "个人年度合规自负医疗费较高且满足对应年收入或养老金档位条件的职工医保参保人。",
+  "action": "保留医疗费明细和收入证明，向医保服务点领取申请表、至区医保事务中心提出申请；不要误称所有自费费用均报销90%。",
+  "source_url": "https://sh.bendibao.com/zffw/2026924/309458.shtm",
+  "official_url": "https://www.shanghai.gov.cn/gwk/search/content/f57a8b26aa414a15a57d1040c1024600",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "适用对象为本市职工医保在职职工及退休人员",
+      "locator": "第一部分适用对象",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/f57a8b26aa414a15a57d1040c1024600",
+      "status": "verified"
+    },
+    {
+      "claim": "超过相应收入比例的合规自负医疗费减负90%",
+      "locator": "第三部分综合减负标准",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/f57a8b26aa414a15a57d1040c1024600",
+      "status": "verified"
+    },
+    {
+      "claim": "2026年9月22日起施行、有效期至2031年9月21日",
+      "locator": "第七部分",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/f57a8b26aa414a15a57d1040c1024600",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "effective",
+  "source_level": "official"
+}

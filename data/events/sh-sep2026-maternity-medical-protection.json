@@ -1,0 +1,39 @@
+{
+  "id": "sh-sep2026-maternity-medical-protection",
+  "title": "上海生育医疗费用保障9月公布、10月1日实施",
+  "topic": "benefits",
+  "districts": [],
+  "published_at": "2026-09-08",
+  "observed_at": "2026-11-26",
+  "effective_at": "2026-10-01",
+  "deadline": null,
+  "summary": "9月8日公开的新政策规定10月1日实施，符合条件的参保生育妇女在政策内的住院分娩和基本医疗保健服务包费用由生育保险全额支付，个人“无自付”。",
+  "impact": "符合上海职工医保或居民医保相应生育待遇规定的生育妇女，另有异地结算边界。",
+  "action": "不要将“无自付”理解为所有个人选择项目全免费；以定点机构、政策内费用和当次结算为准。",
+  "source_url": "https://www.shanghai.gov.cn/gwk/search/content/61adb44f0c7e4a2fbbb0d20d4fedbb25",
+  "official_url": "https://www.shanghai.gov.cn/gwk/search/content/61adb44f0c7e4a2fbbb0d20d4fedbb25",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "文件9月8日发布，10月1日起实施",
+      "locator": "公文页眉与第七部分",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/61adb44f0c7e4a2fbbb0d20d4fedbb25",
+      "status": "verified"
+    },
+    {
+      "claim": "服务包和政策内住院分娩医疗费用由生育保险全额支付，个人无自付",
+      "locator": "第五部分",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/61adb44f0c7e4a2fbbb0d20d4fedbb25",
+      "status": "verified"
+    },
+    {
+      "claim": "异地定点机构服务包费用在4500元/人补贴额度内按规定支付",
+      "locator": "第四部分",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/61adb44f0c7e4a2fbbb0d20d4fedbb25",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "effective",
+  "source_level": "official"
+}

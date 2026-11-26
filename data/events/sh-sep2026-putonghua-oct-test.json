@@ -1,0 +1,39 @@
+{
+  "id": "sh-sep2026-putonghua-oct-test",
+  "title": "教育考试院公布10月普通话水平测试报名安排",
+  "topic": "education",
+  "districts": [],
+  "published_at": "2026-09-15",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "教育考试院9月15日公告，10月9—11日场次从9月22日10时开放报名，10月29—31日场次从10月20日10时开放，额满为止。",
+  "impact": "上海户籍人员、有效居住证持有人及符合条件的在校生，部分年级由学校统一组织。",
+  "action": "该批报名和考试均已结束；如报考教师资格相关岗位，应关注后续测试安排，警惕第三方代报名收费。",
+  "source_url": "https://www.shmeea.edu.cn/page/pthspcs/20260915/20587.html",
+  "official_url": "https://www.shmeea.edu.cn/page/pthspcs/20260915/20587.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "9月22日10点开放10月9—11日测试场次报名",
+      "locator": "测试日程表",
+      "source_url": "https://www.shmeea.edu.cn/page/pthspcs/20260915/20587.html",
+      "status": "verified"
+    },
+    {
+      "claim": "10月20日10点开放10月29—31日测试场次报名",
+      "locator": "测试日程表",
+      "source_url": "https://www.shmeea.edu.cn/page/pthspcs/20260915/20587.html",
+      "status": "verified"
+    },
+    {
+      "claim": "教育考试院未委托社会机构代报名，不收额外费用",
+      "locator": "特别提醒",
+      "source_url": "https://www.shmeea.edu.cn/page/pthspcs/20260915/20587.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

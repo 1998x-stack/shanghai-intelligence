@@ -1,0 +1,33 @@
+{
+  "id": "sh-sep2026-light-festival-2026",
+  "title": "第三届上海国际光影节安排公布：1主会场16分会场",
+  "topic": "lifestyle",
+  "districts": [],
+  "published_at": "2026-09-08",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市政府新闻办9月8日发布：第三届上海国际光影节9月17日至10月16日举办，设1个主会场、16个分会场，安排158场主题活动。",
+  "impact": "上海本地市民、夜间文旅与消费场景经营者、活动参与者。",
+  "action": "这属于已经结束的2026年活动；未来应逐区查看新一年度的官方活动日程，不把历史展期视为仍开放。",
+  "source_url": "https://sh.bendibao.com/xiuxian/2026914/309186.shtm",
+  "official_url": "https://www.shanghai.gov.cn/nw9822/20260908/0dd6110bc17046f5af1f069480987ad0.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "活动日期9月17日至10月16日",
+      "locator": "市政府新闻发布会导语",
+      "source_url": "https://www.shanghai.gov.cn/nw9822/20260908/0dd6110bc17046f5af1f069480987ad0.html",
+      "status": "verified"
+    },
+    {
+      "claim": "共1主会场、16分会场及158场主题活动",
+      "locator": "市政府新闻发布会导语",
+      "source_url": "https://www.shanghai.gov.cn/nw9822/20260908/0dd6110bc17046f5af1f069480987ad0.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}
