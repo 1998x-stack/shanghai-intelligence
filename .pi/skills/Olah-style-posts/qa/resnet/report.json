@@ -1,0 +1,55 @@
+{
+  "file": "examples/resnet/index.html",
+  "pass": true,
+  "viewports": {
+    "desktop": {
+      "pass": true,
+      "scrollWidth": 1440,
+      "viewport": 1440,
+      "heading": 1,
+      "svgs": 10,
+      "blankSVG": 0,
+      "brokenImages": 0,
+      "errors": [],
+      "external_requests": []
+    },
+    "tablet": {
+      "pass": true,
+      "scrollWidth": 768,
+      "viewport": 768,
+      "heading": 1,
+      "svgs": 10,
+      "blankSVG": 0,
+      "brokenImages": 0,
+      "errors": [],
+      "external_requests": []
+    },
+    "mobile": {
+      "pass": true,
+      "scrollWidth": 390,
+      "viewport": 390,
+      "heading": 1,
+      "svgs": 10,
+      "blankSVG": 0,
+      "brokenImages": 0,
+      "errors": [],
+      "external_requests": []
+    },
+    "narrow-mobile": {
+      "pass": true,
+      "scrollWidth": 360,
+      "viewport": 360,
+      "heading": 1,
+      "svgs": 10,
+      "blankSVG": 0,
+      "brokenImages": 0,
+      "errors": [],
+      "external_requests": []
+    }
+  },
+  "errors": [],
+  "interaction": {
+    "status": "verified",
+    "buttons": 4
+  }
+}
