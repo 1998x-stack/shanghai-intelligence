@@ -18,3 +18,7 @@
 - 不发布无来源的数值、名额、截止时间、官网链接或编制身份。
 - 禁止把本地宝二次转载当作主管部门官方文书。
 - 不伪造已执行的测试、已运行的监测、GitHub Pages 已生效。
+
+## 月度研究和自动浏览器QA
+
+给新事件设置 published_at 后，会自动生成月度档案；月报在 config/reports.json 填写 research_month=YYYY-MM 并在 content/reports/<slug>/ 放置 index.html 和 evidence.json。CI 使用 content/reports/*/index.html 遍历全部现有及将来新增的长文进行移动端和交互QA，不必手工编辑工作流。

@@ -1,0 +1,39 @@
+{
+  "id": "sh-sep2026-housing-15th-plan",
+  "title": "上海住房城乡建设“十五五”规划公开：保障性租赁住房25—27万套间",
+  "topic": "housing",
+  "districts": [],
+  "published_at": "2026-09-03",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "住建管理委8月25日印发、9月3日公开规划，2030年目标包括新增供应保障性租赁住房25—27万套（间）、实施老旧小区改造3000—4000万平方米。",
+  "impact": "住房保障申请人、老旧小区居民、城市更新与建造行业。",
+  "action": "属于至2030年全市规划指标，需进一步等待项目、房源批次和区级实施清单，不能按计划数字承诺具体申请名额。",
+  "source_url": "https://www.shanghai.gov.cn/gwk/search/content/652ccdc1039e4514a90e02c0e1e0bc98",
+  "official_url": "https://www.shanghai.gov.cn/gwk/search/content/652ccdc1039e4514a90e02c0e1e0bc98",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "规划印发2026年8月25日，公开9月3日",
+      "locator": "公文页眉",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/652ccdc1039e4514a90e02c0e1e0bc98",
+      "status": "verified"
+    },
+    {
+      "claim": "2030年新增供应保障性租赁住房25—27万套（间）",
+      "locator": "规划专栏主要指标第9项",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/652ccdc1039e4514a90e02c0e1e0bc98",
+      "status": "verified"
+    },
+    {
+      "claim": "老旧小区改造面积目标3000—4000万平方米",
+      "locator": "规划专栏主要指标第7项",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/652ccdc1039e4514a90e02c0e1e0bc98",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "planning",
+  "source_level": "official"
+}

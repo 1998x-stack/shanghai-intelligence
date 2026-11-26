@@ -1,0 +1,39 @@
+{
+  "id": "sh-sep2026-cet-registration",
+  "title": "2026年下半年大学英语四六级报名9月14日启动",
+  "topic": "education",
+  "districts": [],
+  "published_at": "2026-09-07",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "上海市教育考试院9月7日公告，下半年CET笔试报名从9月14日启动，英语四级/六级笔试定于12月12日，口试11月21日至22日。",
+  "impact": "符合考点资格的在校大学生，具体报名时段和条件由所在学校与国家报名系统明确。",
+  "action": "报名阶段已结束；已报名考生从12月1日9时起打印笔试准考证并核对考点。",
+  "source_url": "https://www.shmeea.edu.cn/page/08000/20260907/20579.html",
+  "official_url": "https://www.shmeea.edu.cn/page/08000/20260907/20579.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "9月14日开始报名",
+      "locator": "公告导语",
+      "source_url": "https://www.shmeea.edu.cn/page/08000/20260907/20579.html",
+      "status": "verified"
+    },
+    {
+      "claim": "笔试12月12日，口试11月21—22日",
+      "locator": "第一部分考试时间",
+      "source_url": "https://www.shmeea.edu.cn/page/08000/20260907/20579.html",
+      "status": "verified"
+    },
+    {
+      "claim": "笔试准考证12月1日9时起下载",
+      "locator": "第六部分准考证打印",
+      "source_url": "https://www.shmeea.edu.cn/page/08000/20260907/20579.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "exam_pending",
+  "source_level": "official"
+}

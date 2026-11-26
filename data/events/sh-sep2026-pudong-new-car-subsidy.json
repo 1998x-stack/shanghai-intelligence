@@ -1,0 +1,41 @@
+{
+  "id": "sh-sep2026-pudong-new-car-subsidy",
+  "title": "浦东新一轮购车补贴开放：最高5000元、1.4万个额度号",
+  "topic": "benefits",
+  "districts": [
+    "pudong"
+  ],
+  "published_at": "2026-09-11",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "浦东新区政府9月11日公告，购买日期从9月7日计算、9月15日10时开放申报，按购车发票含税价分档补助2000—5000元，名额1.4万个、先到先得。",
+  "impact": "在浦东指定汽车销售机构购买符合条件新车、完成登记的个人消费者。",
+  "action": "历史额度不能证明现在还剩名额；须到车信盟官方申请系统核对活动结束及申请状态。",
+  "source_url": "https://sh.bendibao.com/news/20261111/310333.shtm",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20260911/c419a6e993d942b1bfe5ec99a9a5bb37.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "购车补贴分为2000、4000、5000元档，最高5000元",
+      "locator": "官方公告第二段",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260911/c419a6e993d942b1bfe5ec99a9a5bb37.html",
+      "status": "verified"
+    },
+    {
+      "claim": "补贴额度共1.4万个",
+      "locator": "官方公告第一段",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260911/c419a6e993d942b1bfe5ec99a9a5bb37.html",
+      "status": "verified"
+    },
+    {
+      "claim": "9月15日10点起申请、购车发票日期9月7日及以后",
+      "locator": "官方公告第三与第四段",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260911/c419a6e993d942b1bfe5ec99a9a5bb37.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "quota_limited",
+  "source_level": "official"
+}

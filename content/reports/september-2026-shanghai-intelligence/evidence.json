@@ -1,0 +1,92 @@
+[
+  {
+    "id": "classification",
+    "claim": "九月编辑选样为23条，分类为4/3/5/3/3/2/3",
+    "kind": "derived-summary",
+    "source_url": "https://github.com/1998x-stack/shanghai-intelligence/tree/main/data/events/",
+    "locator": "研究者去重与分类，原始记录在 data/events/sh-sep2026-*.json",
+    "status": "derived",
+    "notes": "编辑归纳，并非全量新闻发文数量"
+  },
+  {
+    "id": "housing-sale",
+    "claim": "现房销售优先、预售监管和定金规则",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/gwk/search/content/aae26572365b49129bc4642a76a5040e",
+    "locator": "实施意见第一、二部分",
+    "status": "verified",
+    "notes": "以原始官方页面为准"
+  },
+  {
+    "id": "medical-90",
+    "claim": "超过规定门槛的合规自负医疗费实行90%综合减负",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/gwk/search/content/f57a8b26aa414a15a57d1040c1024600",
+    "locator": "综合减负标准与施行日期",
+    "status": "verified",
+    "notes": "以原始官方页面为准"
+  },
+  {
+    "id": "birth",
+    "claim": "政策范围内生育住院与医疗保健服务包依规则无自付、10月1日起实施",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/gwk/search/content/61adb44f0c7e4a2fbbb0d20d4fedbb25",
+    "locator": "第五、七部分",
+    "status": "verified",
+    "notes": "以原始官方页面为准"
+  },
+  {
+    "id": "pudong-auto",
+    "claim": "浦东区补贴分档2000至5000元，限1.4万个名额",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/nw17239/20260911/c419a6e993d942b1bfe5ec99a9a5bb37.html",
+    "locator": "公告第二至四段",
+    "status": "verified",
+    "notes": "以原始官方页面为准"
+  },
+  {
+    "id": "housing-plan",
+    "claim": "住房十五五规划于8月25日印发9月3日公开，规划新增25至27万套（间）保租房",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/gwk/search/content/652ccdc1039e4514a90e02c0e1e0bc98",
+    "locator": "公文页眉及专栏主要指标",
+    "status": "verified",
+    "notes": "以原始官方页面为准"
+  },
+  {
+    "id": "worldskills",
+    "claim": "9月23日上午轨道交通2号线两站临时封站",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/nw17239/20260921/dbd2d3ce28a74431b9232118c3cd220a.html",
+    "locator": "运营调整通告",
+    "status": "verified",
+    "notes": "以原始官方页面为准"
+  },
+  {
+    "id": "light-festival",
+    "claim": "第三届光影节9月17日至10月16日，1主会场16分会场",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/nw9822/20260908/0dd6110bc17046f5af1f069480987ad0.html",
+    "locator": "新闻发布会导语",
+    "status": "verified",
+    "notes": "以原始官方页面为准"
+  },
+  {
+    "id": "medical-vaccine",
+    "claim": "职工医保历年结余可支付非免疫规划疫苗和接种服务费",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/gwk/search/content/52a884336736421ba9ace49d84ddbc80",
+    "locator": "通知第一条",
+    "status": "verified",
+    "notes": "以原始官方页面为准"
+  },
+  {
+    "id": "sponge-target",
+    "claim": "2030年新增450平方公里海绵城市达标区、175片区目标",
+    "kind": "official-fact",
+    "source_url": "https://www.shanghai.gov.cn/gwk/search/content/21149a92c17e4952b39e4b98835e600b",
+    "locator": "目标与任务",
+    "status": "verified",
+    "notes": "以原始官方页面为准"
+  }
+]

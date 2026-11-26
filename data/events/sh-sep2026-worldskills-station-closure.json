@@ -1,0 +1,41 @@
+{
+  "id": "sh-sep2026-worldskills-station-closure",
+  "title": "9月23日世赛期间地铁2号线两站临时封站半天",
+  "topic": "mobility",
+  "districts": [
+    "qingpu"
+  ],
+  "published_at": "2026-09-21",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "上海发布9月21日公布：9月23日运营开始至12时，2号线国家会展中心站、蟠祥路·国家会计学院站封站跳停、出入口关闭。",
+  "impact": "9月23日上午途经青浦国家会展中心附近的通勤、观赛人群。",
+  "action": "该临时管制仅是历史记录，不能误推为当前封站；未来同类展会须查公安交管和申通地铁原始通知。",
+  "source_url": "https://sh.bendibao.com/traffic/2026923/309446.shtm",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20260921/dbd2d3ce28a74431b9232118c3cd220a.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "封站时间9月23日运营开始至12点",
+      "locator": "公告导语",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260921/dbd2d3ce28a74431b9232118c3cd220a.html",
+      "status": "verified"
+    },
+    {
+      "claim": "涉及2号线国家会展中心站及蟠祥路·国家会计学院站",
+      "locator": "公告涉及站点",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260921/dbd2d3ce28a74431b9232118c3cd220a.html",
+      "status": "verified"
+    },
+    {
+      "claim": "封站时段无法上下车、进出站",
+      "locator": "公告提示",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260921/dbd2d3ce28a74431b9232118c3cd220a.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

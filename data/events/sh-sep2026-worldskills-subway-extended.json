@@ -1,0 +1,39 @@
+{
+  "id": "sh-sep2026-worldskills-subway-extended",
+  "title": "第48届世界技能大赛期间上海地铁加班车与接驳车方案",
+  "topic": "mobility",
+  "districts": [],
+  "published_at": "2026-09-18",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "上海发布9月18日消息，针对9月22—27日世界技能大赛及中秋假期客流，地铁部分线路加开车次；9月27日1、2、10、17号线夜间增开定点车。",
+  "impact": "活动参与者、前往虹桥枢纽及国家会展中心的乘客。",
+  "action": "临时运营安排已经结束，不应作为今天的出行时刻表；遇新一轮展会仍须查看申通地铁当日通告。",
+  "source_url": "https://www.shanghai.gov.cn/nw17239/20260919/531f66072e16499e9ba59f304f2a8d72.html",
+  "official_url": "https://www.shanghai.gov.cn/nw17239/20260919/531f66072e16499e9ba59f304f2a8d72.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "赛事日期为9月22日至27日",
+      "locator": "公告开头",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260919/531f66072e16499e9ba59f304f2a8d72.html",
+      "status": "verified"
+    },
+    {
+      "claim": "9月27日1、2、10、17号线增开定点加班车至次日0点",
+      "locator": "保障节日返程段",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260919/531f66072e16499e9ba59f304f2a8d72.html",
+      "status": "verified"
+    },
+    {
+      "claim": "正赛期设国展中心P5通往虹桥枢纽/中春路接驳专线",
+      "locator": "接驳专线段",
+      "source_url": "https://www.shanghai.gov.cn/nw17239/20260919/531f66072e16499e9ba59f304f2a8d72.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

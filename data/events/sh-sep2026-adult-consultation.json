@@ -1,0 +1,33 @@
+{
+  "id": "sh-sep2026-adult-consultation",
+  "title": "2026年上海成人高校招生线上咨询会公告",
+  "topic": "education",
+  "districts": [],
+  "published_at": "2026-09-02",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市教育考试院9月2日公告9月3日上午举办成人高校招生网上咨询，集中解答报名流程、招生政策和志愿填报问题。",
+  "impact": "有继续教育和成人高校招生计划、需要了解学校资格和收费的考生。",
+  "action": "本次咨询已结束；可根据考试院当年招生章程和官方报名政策查询历史规定，勿使用旧年度报名入口。",
+  "source_url": "https://www.shmeea.edu.cn/page/05200/20260902/20568.html",
+  "official_url": "https://www.shmeea.edu.cn/page/05200/20260902/20568.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "网上咨询由上海市教育考试院主办、东方网协办",
+      "locator": "通知说明",
+      "source_url": "https://www.shmeea.edu.cn/page/05200/20260902/20568.html",
+      "status": "verified"
+    },
+    {
+      "claim": "咨询时间为9月3日9:00至11:30",
+      "locator": "咨询时间",
+      "source_url": "https://www.shmeea.edu.cn/page/05200/20260902/20568.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

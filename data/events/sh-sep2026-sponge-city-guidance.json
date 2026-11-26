@@ -1,0 +1,39 @@
+{
+  "id": "sh-sep2026-sponge-city-guidance",
+  "title": "上海海绵城市建设新规：2030年新增450平方公里达标区域",
+  "topic": "housing",
+  "districts": [],
+  "published_at": "2026-09-23",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "住建管理委9月23日公开意见，提出到2030年新增450平方公里海绵城市达标区域、全市重点推进约175个海绵片区建设及达标评估。",
+  "impact": "全市各区建设主管部门、市政排水与雨洪管理企业、易涝地区居民。",
+  "action": "关注各区片区工程、雨水管网与绿地调蓄项目的具体公告；规划指标并非已竣工面积。",
+  "source_url": "https://www.shanghai.gov.cn/gwk/search/content/21149a92c17e4952b39e4b98835e600b",
+  "official_url": "https://www.shanghai.gov.cn/gwk/search/content/21149a92c17e4952b39e4b98835e600b",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "意见印发9月9日、公开9月23日",
+      "locator": "公文页眉",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/21149a92c17e4952b39e4b98835e600b",
+      "status": "verified"
+    },
+    {
+      "claim": "2030年新增450平方公里海绵城市达标区域",
+      "locator": "工作目标",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/21149a92c17e4952b39e4b98835e600b",
+      "status": "verified"
+    },
+    {
+      "claim": "2030年前完成约175个海绵片区建设和达标评估",
+      "locator": "持续推进片区建设",
+      "source_url": "https://www.shanghai.gov.cn/gwk/search/content/21149a92c17e4952b39e4b98835e600b",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "planning",
+  "source_level": "official"
+}

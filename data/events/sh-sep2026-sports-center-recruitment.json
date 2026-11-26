@@ -1,0 +1,39 @@
+{
+  "id": "sh-sep2026-sports-center-recruitment",
+  "title": "上海竞技体育训练管理中心第二轮招聘3名编制内工作人员",
+  "topic": "jobs",
+  "districts": [],
+  "published_at": "2026-09-16",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": "2026-09-28",
+  "summary": "市人社局9月16日公告明确招聘事业编制内工作人员3名，9月21日至28日按指定邮件和报名表方式报考。",
+  "impact": "符合体育训练管理中心岗位要求的技术、训练或管理人才。",
+  "action": "本轮9月28日截止；如需判断编制性质，可参照公告第一节直接证实“编制内录用”。",
+  "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260915/t0035_1443714.html",
+  "official_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260915/t0035_1443714.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "招聘事业单位工作人员3名，属于事业单位编制内录用",
+      "locator": "第一节岗位及相关待遇",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260915/t0035_1443714.html",
+      "status": "verified"
+    },
+    {
+      "claim": "报名时间9月21日至28日",
+      "locator": "第三节报名时间和方式",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260915/t0035_1443714.html",
+      "status": "verified"
+    },
+    {
+      "claim": "按报名登记表发送指定邮箱",
+      "locator": "第三节报名方式",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260915/t0035_1443714.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}

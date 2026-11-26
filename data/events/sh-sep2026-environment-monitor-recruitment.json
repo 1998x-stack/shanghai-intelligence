@@ -1,0 +1,39 @@
+{
+  "id": "sh-sep2026-environment-monitor-recruitment",
+  "title": "上海市环境监测中心发布事业单位招聘公告",
+  "topic": "jobs",
+  "districts": [],
+  "published_at": "2026-09-15",
+  "observed_at": "2026-11-26",
+  "effective_at": null,
+  "deadline": null,
+  "summary": "市人社局9月15日发布招聘，面向38周岁及以下的合适人员，须已有2026年上海事业单位统一考试成绩且达到168分。",
+  "impact": "持符合要求的事业单位笔试成绩、专业资格与规定居住证条件的申请者。",
+  "action": "官网要求发布之日起7个工作日内邮件提交材料；窗口已结束，需关注后续聘用公示或下一批次。",
+  "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260914/t0035_1443675.html",
+  "official_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260914/t0035_1443675.html",
+  "checked_at": "2026-11-26",
+  "status": "verified",
+  "evidence": [
+    {
+      "claim": "适用对象为38周岁及以下的应届或非应届毕业生",
+      "locator": "招聘对象",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260914/t0035_1443675.html",
+      "status": "verified"
+    },
+    {
+      "claim": "须参加2026年上海事业单位考试且达到168分",
+      "locator": "基本条件第3项",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260914/t0035_1443675.html",
+      "status": "verified"
+    },
+    {
+      "claim": "电子邮件报名为公告发布之日起7个工作日内",
+      "locator": "招聘程序第1项",
+      "source_url": "https://rsj.sh.gov.cn/tzpgg_17408/20260914/t0035_1443675.html",
+      "status": "verified"
+    }
+  ],
+  "event_stage": "expired",
+  "source_level": "official"
+}
