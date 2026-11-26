@@ -36,5 +36,8 @@
   ],
   "event_stage": "superseded",
   "source_level": "official",
-  "context": "本条是8月官方听证版本，已被11月最终发布的票价机制替代；关联站内已有事件 sh-metro-fare-2026。"
+  "context": "本条是8月官方听证版本，已被11月最终发布的票价机制替代；关联站内已有事件 sh-metro-fare-2026。",
+  "related_event_ids": [
+    "sh-metro-fare-2026"
+  ]
 }

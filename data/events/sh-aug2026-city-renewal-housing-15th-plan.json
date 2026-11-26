@@ -35,5 +35,8 @@
     }
   ],
   "event_stage": "planning",
-  "source_level": "official"
+  "source_level": "official",
+  "related_event_ids": [
+    "sh-sep2026-housing-15th-plan"
+  ]
 }

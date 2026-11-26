@@ -35,5 +35,8 @@
     }
   ],
   "event_stage": "effective",
-  "source_level": "official"
+  "source_level": "official",
+  "related_event_ids": [
+    "sh-aug2026-housing-replacement-subsidy"
+  ]
 }

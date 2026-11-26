@@ -36,5 +36,8 @@
   ],
   "event_stage": "effective",
   "source_level": "official",
-  "context": "与8月20日沪八条同一政策事件链：本条为8月21日发布的操作细则，不是另一笔独立政策预算。"
+  "context": "与8月20日沪八条同一政策事件链：本条为8月21日发布的操作细则，不是另一笔独立政策预算。",
+  "related_event_ids": [
+    "sh-aug2026-eight-housing-measures"
+  ]
 }
