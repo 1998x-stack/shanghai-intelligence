@@ -43,18 +43,25 @@ jobs:
         run: |
           python -m pip install beautifulsoup4 playwright
           python -m playwright install --with-deps chromium
-      - name: Validate Olah article semantics
+      - name: Validate all published Olah reports
         run: |
-          python .pi/skills/olah-style-paper-posts/scripts/validate.py content/reports/metro-fare-2026/index.html
-          python .pi/skills/olah-style-paper-posts/scripts/validate.py content/reports/october-2026-shanghai-intelligence/index.html
-      - name: Run Chromium viewport and interaction checks
+          set -euo pipefail
+          for page in content/reports/*/index.html; do
+            echo "Validating $page"
+            python .pi/skills/olah-style-paper-posts/scripts/validate.py "$page"
+          done
+      - name: Chromium viewport and interaction checks for every report
         run: |
-          python .pi/skills/olah-style-paper-posts/scripts/browser_check.py content/reports/metro-fare-2026/index.html --output qa-reports/metro-fare-2026
-          python .pi/skills/olah-style-paper-posts/scripts/browser_check.py content/reports/october-2026-shanghai-intelligence/index.html --output qa-reports/october-2026-shanghai-intelligence
+          set -euo pipefail
+          for page in content/reports/*/index.html; do
+            slug="$(basename "$(dirname "$page")")"
+            echo "Browser QA: $slug"
+            python .pi/skills/olah-style-paper-posts/scripts/browser_check.py "$page" --output "qa-reports/$slug"
+          done
       - name: Save browser QA evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: shanghai-monthly-browser-qa
+          name: shanghai-all-reports-browser-qa
           path: qa-reports/
           if-no-files-found: ignore

@@ -27,7 +27,7 @@ class TestShanghaiSite(unittest.TestCase):
     def test_required_routes(self):
         for path in ("index.html", "archive/index.html", "daily/index.html",
                      "topics/index.html", "districts/index.html",
-                     "reports/index.html", "monthly/index.html", "monthly/2026-10/index.html", "sources/index.html", "404.html", "feed.json"):
+                     "reports/index.html", "monthly/index.html", "monthly/2026-10/index.html", "monthly/2026-09/index.html", "sources/index.html", "404.html", "feed.json"):
             self.assertTrue((build_site.OUT / path).is_file(), path)
 
     def test_draft_is_not_public(self):
@@ -47,6 +47,21 @@ class TestShanghaiSite(unittest.TestCase):
         self.assertIn("2026-10", page)
         self.assertIn("sh-oct2026-ai-manufacturing-plan", page)
         self.assertIn("october-2026-shanghai-intelligence", page)
+
+    def test_september_month_archiving(self):
+        page = (build_site.OUT / "monthly/2026-09/index.html").read_text(encoding="utf-8")
+        self.assertIn("sh-sep2026-housing-sales-reform", page)
+        self.assertIn("september-2026-shanghai-intelligence", page)
+        published = [e for e in build_site.load_events() if e["published_at"].startswith("2026-09")]
+        self.assertEqual(len(published), 23)
+        self.assertEqual(len(set(e["id"] for e in published)), 23)
+        self.assertTrue((build_site.OUT / "reports/september-2026-shanghai-intelligence/index.html").exists())
+
+    def test_all_reports_have_evidence_and_generated_pages(self):
+        for report in build_site.REPORTS:
+            slug = report["slug"]
+            self.assertTrue((ROOT / "content/reports" / slug / "evidence.json").exists())
+            self.assertTrue((build_site.OUT / "reports" / slug / "index.html").exists())
 
     def test_feed_is_array(self):
         data = json.loads((build_site.OUT / "feed.json").read_text(encoding="utf-8"))
